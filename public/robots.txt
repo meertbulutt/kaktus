@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kaktuscafe.com/sitemap.xml
+
+# Disallow admin and private pages
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow all other pages
+Allow: /*
+
+# Crawl-delay
+Crawl-delay: 10 

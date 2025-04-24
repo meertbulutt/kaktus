@@ -1,0 +1,81 @@
+export const products = [
+    {
+      id: 1,
+      name: "Çilek Milkshake",
+      image: "/images/drinks/milkshake/cilek-milkshake.webp",
+      description:"",
+      price: "225₺",
+    },
+    {
+      id: 2,
+  
+      name: "Çikolata Milkshake",
+      image: "/images/drinks/milkshake/cikolata-milkshake.webp",
+      description: "",
+      price: "225₺",
+    },
+    {
+      id: 3,
+      name: "Vanilya Milkshake",
+      image: "/images/drinks/milkshake/vanilya-milkshake.webp",
+      description: "",
+      price: "225₺",
+    },
+    {
+        id: 4,
+        name: "Muz Milkshake",
+        image: "/images/drinks/milkshake/muz-milkshake.webp",
+        description: "",
+        price: "225₺",
+      },
+      {
+        id: 5,
+        name: "Karamel Milkshake",
+        image: "/images/drinks/milkshake/karamel-milkshake.webp",
+        description: "",
+        price: "225₺",
+      },
+      {
+        id: 6,
+        name: "Böğürtlen Milkshake",
+        image: "/images/drinks/milkshake/bogurtlen-milkshake.webp",
+        description: "",
+        price: "240₺",
+      },
+      {
+        id: 7,
+        name: "Kavun Milkshake",
+        image: "/images/drinks/milkshake/kavun-milkshake.jpg",
+        description: "",
+        price: "225₺",
+      },
+      {
+        id: 8,
+        name: "Muzlu Süt",
+        image: "/images/drinks/milkshake/muzlu-sut.webp",
+        description: "",
+        price: "225₺",
+      },
+      {
+        id: 9,
+        name: "Antep Fıstıklı Atom",
+        image: "/images/drinks/milkshake/antep-fistikli-atom.png",
+        description: "",
+        price: "300₺",
+      },
+      {
+        id: 10,
+        name: "Oreo Milkshake",
+        image: "/images/drinks/milkshake/oreo-milkshake.webp",
+        description: "",
+        price: "240₺",
+      },
+      {
+        id: 11,
+        name: "Kaktüs Milkshake",
+        image: "/images/drinks/milkshake/kaktus-milkshake.webp",
+        description: "",
+        price: "300₺",
+      },
+  ];
+  
