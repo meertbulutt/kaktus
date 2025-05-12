@@ -23,7 +23,7 @@ const BiggerBassPhoto = ({src}) => {
           transition={{ duration: 0.5, ease: "easeInOut" }}
         >
           <Image
-            src={`${src ? src : "/images/galery-bg.jpg"}`}
+            src={`${src ? src : "/images/kaktus-background-iki.webp"}`}
             alt="Scroll Image"
             fill
             className="object-cover"

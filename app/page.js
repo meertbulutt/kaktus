@@ -11,6 +11,7 @@ import VideoAnimationRight from "@/components/VideoAnimationRight";
 import Biggerbass from "@/components/Biggerbass";
 import TextAnimation from "@/components/TextAnimation";
 
+
 export default function Home() {
   const firstSectionText = 
     {
@@ -26,29 +27,29 @@ export default function Home() {
     }
     const carouselTextLeftText = 
     {
-      src: "/images/foods/kahvalti/granola.png",
-      src1: "/images/foods/kahvalti/serpme-kahvalti.png",
+      src: "/images/foods/kahvalti/granola.webp",
+      src1: "/images/foods/kahvalti/serpme-kahvalti.webp",
       text: "Güne Efsane Bir Kahvaltıyla Başlayın",
       text1: "Kaktüs Cafe'de kahvaltı, sadece bir öğün değil; güne keyifle başlamanın en lezzetli yolu. Adana'nın merkezinde serpme kahvaltıdan tostlara, menemen ve yumurta çeşitlerinden taptaze çayımıza kadar her şey özenle hazırlanıyor. Ailece ya da dostlarla yapılacak kahvaltılar için huzurlu bir ortam, sıcak sunum ve lezzetin birleştiği adres: Kaktüs Cafe.",
     }
     const imageCarouselText = 
     {
-      src: "/images/foods/tatli-lezzetler/dondurmali-brownie.png",
+      src: "/images/foods/tatli-lezzetler/dondurmali-brownie.webp",
       text: "Tatlı Kaçamakların En Güzel Adresi: Kaktüs Cafe",
       text1: "Tatlı kriziniz mi tuttu? Kaktüs Cafe'nin özenle hazırlanan tatlıları, Adana'da tatlı denince akla gelen ilk durak olmayı başarıyor. Göz alıcı sunumlar, taptaze malzemeler ve her lokmada hissedilen ustalıkla, tatlılarımız sadece damağınızı değil ruhunuzu da şımartıyor.",
       text2: "Geleneksel Türk tatlılarından modern lezzetlere uzanan zengin menümüzde her zevke uygun bir seçenek var. İster bir fincan kahve eşliğinde dinlenmek için, ister dost sohbetlerini tatlandırmak için… Kaktüs Cafe'de tatlı yemek bir alışkanlık değil, bir ritüel.",
     }
     const buttonCarouselLeftText = 
-    { src: "/images/pizza-giris.jpg",
-      src2: "/images/foods/pizzalar/tiftik-etli-pizza.png",
+    { src: "/images/pizza-giris.webp",
+      src2: "/images/foods/pizzalar/tiftik-etli-pizza.webp",
       text: "Adana'da Gerçek Pizza Keyfi: Kaktüs Cafe'de Başlar.",
       text1: "İtalyan lezzetini Adana'ya taşıyan Kaktüs Cafe pizzaları, incecik hamuru, bol malzemesi ve taş fırın lezzetiyle tam anlamıyla efsane! Taptaze sebzeler, özel soslar ve her lokmada uzayan peynirle bu pizza deneyimi, bildiklerinizi unutturacak.",
       text2: "Klasiklerden gurme lezzetlere uzanan geniş pizza menümüz, hem gözünüze hem damağınıza hitap ediyor. İster arkadaşlarla keyifli bir akşam, ister tek başına bir ziyafet… Kaktüs Cafe'nin pizzaları her zaman doğru tercih!",
     }
     const buttonCarouselRightText = 
     {
-      src: "/images/giris-icecek.png",
-      src2: "/images/giris-icecek-2.png",
+      src: "/images/giris-icecek.webp",
+      src2: "/images/giris-icecek-2.webp",
       text: "Adana Sıcağında Serinlemenin En Lezzetli Yolu: Kaktüs Cafe Soğuk İçecekleri",
       text1: "Adana'nın kavurucu sıcağında ferahlatıcı bir mola arıyorsan, Kaktüs Cafe'nin özel soğuk içecek menüsü tam sana göre! Taze meyvelerle hazırlanan smoothie'lerden, buz gibi limonatalara ve aromalı soğuk kahvelere kadar her yudumda serinliği hissedeceksin.",
       text2: "Gün boyu enerjini taze tutacak, hem ferahlatan hem de damakta iz bırakan içecek çeşitlerimizle yaz-kış fark etmeden misafirlerimize keyifli bir deneyim sunuyoruz. Soğuk içecek deyince akla gelen ilk yer: Kaktüs Cafe Adana!",
@@ -66,8 +67,10 @@ export default function Home() {
       <Header />
       <div className="bg-[#ffffff]">
         <VideoSlider />
+        
        
         <main className="container mx-auto px-4 sm:px-6 lg:px-8">
+          
            {/* First Section */}
           <section className="py-8 md:py-16 lg:py-24 text-kaktus-green">
             <div className="flex flex-col justify-center space-y-4 md:space-y-6">
@@ -79,7 +82,7 @@ export default function Home() {
               </span>
             </div>
           </section>
-          
+          <a className="px-4 flex items-center justify-center mt-2 text-3xl font-bold md:font-normal md:text-5xl text-kaktus-green hover:text-kaktus-green-dark" href="/menu">Menüyü Görmek İçin Tıklayınız</a>
           <VideoAnimationLeft 
             src={videoAnimationLeftText.src} 
             text={videoAnimationLeftText.text} 

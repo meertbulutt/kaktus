@@ -23,7 +23,7 @@ const HalfHeroSection = () => {
     dotsClass: "slick-dots slick-thumb",
   };
 
-  const videos = ["/videos/", "/videos/hero-video3.mp4"];
+  const videos = ["/videos/buyuyen-video.mp4", "/videos/buyuyen-video.mp4"];
 
   return (
     <>
@@ -44,7 +44,7 @@ const HalfHeroSection = () => {
                   initial={{ opacity: 0, y: 80 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.75, ease: "easeOut" }}
-                  className="text-white text-3xl md:text-3xl text-center"
+                  className="text-white text-2xl md:text-3xl text-center"
                 >
                   YEŞİLİN İÇİNDE, TATLARIN EN GÜZELİ: KAKTÜS CAFE GARDEN...
                 </motion.h1>
@@ -54,7 +54,7 @@ const HalfHeroSection = () => {
         </Slider>
       </main>
       <section className="text-2xl lg:text-3xl container mx-auto text2xl lg:py-24 text-kaktus-green">
-        <div className="p-8 lg:px-42 flex flex-col justify-center items-center">
+        <div className="p-2 lg:px-42 flex flex-col justify-center items-center">
           <span className="w-full lg:w-[80%]">
             <TextAnimation
               className={"text-center tracking-wider"}

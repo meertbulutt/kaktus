@@ -51,7 +51,7 @@ const CarouselTextRight = ({ src, text, text1, text2 }) => {
           >
             <div>
               <Image
-                src={`${src ? src : "/images/image-1.png"}`}
+                src={`${src ? src : "/images/image-1.webp"}`}
                 width={620}
                 height={620}
                 alt="Görsel 1"
@@ -60,7 +60,7 @@ const CarouselTextRight = ({ src, text, text1, text2 }) => {
             </div>
             <div>
               <Image
-                src={`${src ? src : "/images/image-1.png"}`}
+                src={`${src ? src : "/images/image-1.webp"}`}
                 width={620}
                 height={620}
                 alt="Görsel 2"

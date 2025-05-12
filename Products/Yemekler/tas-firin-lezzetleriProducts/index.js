@@ -3,7 +3,7 @@ export const products = [
     id: 1,
 
     name: "Lahmacun Adet",
-    image: "/images/foods/tas-firin-lezzetleri/lahmacun.png",
+    image: "/images/foods/tas-firin-lezzetleri/lahmacun.webp",
     description: "",
     price: "150₺",
   },
@@ -11,7 +11,7 @@ export const products = [
     id: 2,
 
     name: "Lahmacun Porsiyon",
-    image: "/images/foods/tas-firin-lezzetleri/lahmacun.png",
+    image: "/images/foods/tas-firin-lezzetleri/lahmacun.webp",
     description: "",
     price: "450₺",
   },
@@ -20,7 +20,7 @@ export const products = [
     id: 3,
 
     name: "Kaşarlı Sucuklu Pide",
-    image: "/images/foods/tas-firin-lezzetleri/kasarli-sucuklu-pide.png",
+    image: "/images/foods/tas-firin-lezzetleri/kasarli-sucuklu-pide.webp",
     description: "Kaşar, Sucuk, Yeşillik, Domates",
     price: "450₺",
   },
@@ -28,7 +28,7 @@ export const products = [
     id: 4,
 
     name: "Kuşbaşılı Pide",
-    image: "/images/foods/tas-firin-lezzetleri/kusbasili-pide.png",
+    image: "/images/foods/tas-firin-lezzetleri/kusbasili-pide.webp",
     description: "Et, Biber, Domates, Yeşillik, Domates",
     price: "450₺",
   },
@@ -36,7 +36,7 @@ export const products = [
     id: 5,
 
     name: "Kuşbaşılı Kaşarlı Pide",
-    image: "/images/foods/tas-firin-lezzetleri/kusbasili-kasarli.png",
+    image: "/images/foods/tas-firin-lezzetleri/kusbasili-kasarli.webp",
     description: "Et, Biber, Domates, Kaşar, Yeşillik",
     price: "500₺",
   },
@@ -44,7 +44,7 @@ export const products = [
     id: 6,
 
     name: "Kavurmalı Pide",
-    image: "/images/foods/tas-firin-lezzetleri/kavurmali-pide.png",
+    image: "/images/foods/tas-firin-lezzetleri/kavurmali-pide.webp",
     description: "Kaşar, Kavurma, Yeşillik, Domates",
     price: "₺",
   },
@@ -52,7 +52,7 @@ export const products = [
     id: 7,
 
     name: "Ispanaklı Pide",
-    image: "/images/foods/tas-firin-lezzetleri/ispanakli-pide.png",
+    image: "/images/foods/tas-firin-lezzetleri/ispanakli-pide.webp",
     description:
       "Soğan, Ispanak, Kaşar, Yeşillik, Domates, Yumurta (İsteğe Bağlı)",
     price: "₺",
@@ -62,7 +62,7 @@ export const products = [
     id: 8,
 
     name: "Kaşarlı Pide",
-    image: "/images/foods/tas-firin-lezzetleri/kasarli-pide.png",
+    image: "/images/foods/tas-firin-lezzetleri/kasarli-pide.webp",
     description: "Yeşillik, Domates, Turşu",
     price: "350₺",
   },

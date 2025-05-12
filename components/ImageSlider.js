@@ -39,7 +39,7 @@ const ImageSlider = ({ className, text ,src}) => {
         className="absolute inset-0 z-10 rounded-md overflow-hidden shadow-lg"
       >
         <Image
-          src={`${src ? src : "/images/galery-bg.jpg"}`}
+          src={`${src ? src : "/images/kaktus-background.webp"}`}
           alt="Scroll Image"
           layout="fill"
           objectFit="cover"

@@ -9,7 +9,7 @@ export const products = [
     {
       id: 2,
       name: "Karpuz Limonata",
-      image: "/images/drinks/vitamin-bar/karpuzlu-limonata.jpg",
+      image: "/images/drinks/vitamin-bar/karpuzlu-limonata.webp",
       description: "",
       price: "150₺",
     },
@@ -37,21 +37,21 @@ export const products = [
       {
         id: 6,
         name: "Nar Suyu",
-        image: "/images/drinks/vitamin-bar/nar-suyu.jpg",
+        image: "/images/drinks/vitamin-bar/nar-suyu.webp",
         description: "",
         price: "275₺",
       },
       {
         id: 7,
         name: "Ananas Suyu",
-        image: "/images/drinks/vitamin-bar/ananas.jpg",
+        image: "/images/drinks/vitamin-bar/ananas.webp",
         description: "",
         price: "375₺",
       },
       {
         id: 8,
         name: "Elma Suyu",
-        image: "/images/drinks/vitamin-bar/elma-suyu.jpg",
+        image: "/images/drinks/vitamin-bar/elma-suyu.webp",
         description: "",
         price: "225₺",
       },
@@ -93,7 +93,7 @@ export const products = [
       {
         id: 14,
         name: "Kombo Ananas",
-        image: "/images/drinks/vitamin-bar/ananas.jpg",
+        image: "/images/drinks/vitamin-bar/ananas.webp",
         description: "",
         price: "450₺",
       },

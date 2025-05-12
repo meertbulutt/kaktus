@@ -3,7 +3,7 @@ export const products = [
       id: 1,
   
       name: "Penne Arabiata",
-      image: "/images/foods/makarnalar/penne-arabiata.png",
+      image: "/images/foods/makarnalar/penne-arabiata.webp",
       description:
         "Özel Acılı Arabiata Sosu, Zeytin, Parmesan Peyniri",
       price: "300₺",
@@ -12,7 +12,7 @@ export const products = [
       id: 2,
   
       name: "Köri Soslu Tavuklu Penne",
-      image: "/images/foods/makarnalar/kori-soslu-tavuklu-penne.png",
+      image: "/images/foods/makarnalar/kori-soslu-tavuklu-penne.webp",
       description: "Julyen Tavuk Parçaları, Biber, Mantar, Krema, Parmesan",
       price: "325₺",
     },
@@ -20,7 +20,7 @@ export const products = [
       id: 3,
   
       name: "Kremalı Tavuklu Penne",
-      image: "/images/foods/makarnalar/kremali-tavuklu-penne.png",
+      image: "/images/foods/makarnalar/kremali-tavuklu-penne.webp",
       description: "Julyen Tavuk Parçaları, Biber, Mantar, Krema",
       price: "3250₺",
     },
@@ -28,7 +28,7 @@ export const products = [
       id: 4,
   
       name: "Spaghetti Bolognese",
-      image: "/images/foods/makarnalar/spaghetti-bolognese.png",
+      image: "/images/foods/makarnalar/spaghetti-bolognese.webp",
       description: "Özel Bolognese Sosu, Parmesan Peyniri",
       price: "350₺",
     },
@@ -36,7 +36,7 @@ export const products = [
       id: 5,
   
       name: "Spaghetti Napoliten",
-      image: "/images/foods/makarnalar/spaghetti-napoliten.png",
+      image: "/images/foods/makarnalar/spaghetti-napoliten.webp",
       description: "Özel Napoliten Sosu, Parmesan Peyniri",
       price: "300₺",
     },
@@ -44,7 +44,7 @@ export const products = [
       id: 6,
   
       name: "Linguine Di Mare",
-      image: "/images/foods/makarnalar/linguine-di-mare.png",
+      image: "/images/foods/makarnalar/linguine-di-mare.webp",
       description: "Kabuklu Midye, Karides, Mantar, Sarımsak, Krema, Parmesan",
       price: "425₺",
     },
@@ -52,7 +52,7 @@ export const products = [
       id: 7,
   
       name: "Pesto Soslu Linguine",
-      image: "/images/foods/makarnalar/pesto-soslu-linguine.png",
+      image: "/images/foods/makarnalar/pesto-soslu-linguine.webp",
       description: "Krema, Pesto Sosu, Parmesan Peyniri",
       price: "320₺",
     },
@@ -60,7 +60,7 @@ export const products = [
       id: 8,
   
       name: "Fettucihini Alfredo",
-      image: "/images/foods/makarnalar/fettucihini-alfredo.png",
+      image: "/images/foods/makarnalar/fettucihini-alfredo.webp",
       description: "Julyen Tavuk, Mantar, Krema, Pesto Sosu, Parmesan Peyniri",
       price: "320₺",
     },
@@ -68,7 +68,7 @@ export const products = [
       id: 9,
   
       name: "Bonfileli Fettucihini",
-      image: "/images/foods/makarnalar/bonfileli-fettucihini.png",
+      image: "/images/foods/makarnalar/bonfileli-fettucihini.webp",
       description: "Julyen Et Parçaları, Mantar, Krema, Pesto Sos, Parmesan Peyniri",
       price: "500₺",
     },
@@ -76,7 +76,7 @@ export const products = [
       id: 10,
   
       name: "Noodle",
-      image: "/images/foods/makarnalar/noodle.png",
+      image: "/images/foods/makarnalar/noodle.webp",
       description: "Kabak, Havuç, Soğan, Biber, Mantar, Soya Filizi, Özel Sos, Susam",
       price: "325₺",
     },
@@ -92,7 +92,7 @@ export const products = [
       id: 12,
   
       name: "3 Renkli Tortelini",
-      image: "/images/foods/makarnalar/3-renkli-tortelini.png",
+      image: "/images/foods/makarnalar/3-renkli-tortelini.webp",
       description: "Mantar, Krema, Pesto Sos, Parmesan Peyniri",
       price: "350₺",
     },

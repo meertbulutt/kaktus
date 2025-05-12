@@ -1,17 +1,16 @@
 "use client";
 
-import Image from "next/image";
 import Button from "./Button";
 import TextAnimation from "./TextAnimation";
 import { motion } from "framer-motion";
 import ImageSlider from "./ImageSlider";
 
-const ImageCarousel = ({src,text,text1,text2}) => {
+const ImageCarousel = ({ src, text, text1, text2 }) => {
   return (
-    <section className="flex flex-col-reverse lg:flex-row justify-center items-center gap-4 lg:gap-16 mt-24 px-3 md:px-6">
+    <section className="flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-16 mt-24 px-3 md:px-6">
       {/* SOL TARAF */}
       <motion.div
-        className="lg:w-1/2"
+        className="lg:w-1/2 flex flex-col justify-center items-start"
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
@@ -38,12 +37,15 @@ const ImageCarousel = ({src,text,text1,text2}) => {
           />
         </div>
 
-        <Button buttonText={"Menüyü İnceleyin"}/>
+        <Button buttonText={"Menüyü İnceleyin"} />
       </motion.div>
 
       {/* SAĞ TARAF */}
-      <div className="w-[99%] h-[65vh] relative lg:w-2/3 lg:h-[620px]">
-       <ImageSlider src={src} className={"container mx-auto relative w-full h-[600px] overflow-hidden"}/>
+      <div className="w-full lg:w-2/3 relative h-[400px] lg:h-[620px] overflow-hidden">
+        <ImageSlider
+          src={src}
+          className={"container mx-auto relative w-full h-full object-cover"}
+        />
       </div>
     </section>
   );

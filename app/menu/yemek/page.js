@@ -16,27 +16,27 @@ const Yemekler = () => {
   }, [pathname]);
 
   const foods = [
-    { title: "Kahvaltı", path: "yemek/kahvalti", icon: "kahvaltilar-icon.svg" },
-    { title: "Aperatifler", path: "yemek/aperatifler", icon: "aperatifler-icon.svg" },
-    { title: "Wrapler", path: "yemek/wrap", icon: "mexican-icon.svg" },
-    { title: "Tavuk Yemekleri", path: "yemek/tavuk-yemekleri", icon: "tavuk-yemekleri-icon.svg" },
-    { title: "Makarnalar", path: "yemek/makarnalar", icon: "makarnalar-icon.svg" },
-    { title: "Krepler", path: "yemek/krepler", icon: "krepler-icon.svg" },  
-    { title: "Burgerler", path: "yemek/burgerler", icon: "burgerler-icon.svg" },
-    { title: "Salatalar", path: "yemek/salatalar", icon: "salatalar-icon.svg" },
-    { title: "Sağlıklı Kaseler", path: "yemek/saglikli-kaseler", icon: "saglikli-kaseler-icon.svg" },
-    { title: "Ev Lezzetleri", path: "yemek/ev-lezzetleri", icon: "ev-lezzetleri-icon.svg" },
-    { title: "Taş Fırın Lezzetleri", path: "yemek/tas-firin-lezzetleri", icon: "tas-firin-lezzetleri-icon.svg" },
-    { title: "Pizzalar", path: "yemek/pizzalar", icon: "pizzalar-icon.svg" },
-    { title: "Et Yemekleri", path: "yemek/et-yemekleri", icon: "et-yemekleri-icon.svg" },
-    { title: "Tatlılar-Çerezler", path: "yemek/tatli-lezzetler", icon: "tatli-lezzetler-icon.svg" },
+    { title: "Kahvaltı", path: "/menu/yemek/kahvalti", icon: "/images/kahvaltilar-icon.png" },
+    { title: "Aperatifler", path: "/menu/yemek/aperatifler", icon: "/images/aperatifler-icon.png" },
+    { title: "Wrapler", path: "/menu/yemek/wrapler", icon: "/images/mexican-icon.png" },
+    { title: "Tavuk Yemekleri", path: "/menu/yemek/tavuk-yemekleri", icon: "/images/tavuk-yemekleri-icon.png" },
+    { title: "Makarnalar", path: "/menu/yemek/makarnalar", icon: "/images/makarnalar-icon.png" },
+    { title: "Krepler", path: "/menu/yemek/krepler", icon: "/images/krepler-icon.png" },  
+    { title: "Burgerler", path: "/menu/yemek/burgerler", icon: "/images/burgerler-icon.png" },
+    { title: "Salatalar", path: "/menu/yemek/salatalar", icon: "/images/salatalar-icon.png" },
+    { title: "Sağlıklı Kaseler", path: "/menu/yemek/saglikli-kaseler", icon: "/images/saglikli-kaseler-icon.png" },
+    { title: "Ev Lezzetleri", path: "/menu/yemek/ev-lezzetleri", icon: "/images/ev-lezzetleri-icon.png" },
+    { title: "Taş Fırın Lezzetleri", path: "/menu/yemek/tas-firin-lezzetleri", icon: "/images/tas-firin-lezzetleri-icon.png" },
+    { title: "Pizzalar", path: "/menu/yemek/pizzalar", icon: "/images/pizzalar-icon.png" },
+    { title: "Et Yemekleri", path: "/menu/yemek/et-yemekleri", icon: "/images/et-yemekleri-icon.png" },
+    { title: "Tatlılar-Çerezler", path: "/menu/yemek/tatli-lezzetler", icon: "/images/tatli-lezzetler-icon.png" },
   ];
 
   return (
     <div 
       className="min-h-screen py-8 md:py-12 relative" 
       style={{
-        backgroundImage: 'url("/images/marble-bg.png")',
+        backgroundImage: 'url("/images/marble-bg.webp")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -55,7 +55,7 @@ const Yemekler = () => {
         <div className="absolute top-4 right-0 md:right-4 z-10">
           <Link href="/" className="relative w-48 md:w-64 h-24 md:h-32 block">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.webp"
               alt="Kaktus Logo"
               fill
               className="object-contain"
@@ -80,7 +80,7 @@ const Yemekler = () => {
                   whileHover={{ scale: 1.02 }}
                 >
                   <Image
-                    src={`/icons/yemekler-icon/${food.icon}`}
+                    src={`${food.icon}`}
                     alt={food.title}
                     width={48}
                     height={48}

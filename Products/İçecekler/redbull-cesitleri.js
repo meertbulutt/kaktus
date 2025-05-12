@@ -24,7 +24,7 @@ export const products = [
     {
         id: 4,
         name: "Mojito Sprite",
-        image: "/images/drinks/redbull-cesitleri/sprite-mojito.jpg",
+        image: "/images/drinks/redbull-cesitleri/sprite-mojito.webp",
         description: "",
         price: "225₺",
       },

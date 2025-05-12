@@ -59,13 +59,15 @@ const VideoAnimationRight = ({text, text1, text2, src}) => {
              className="flex justify-center items-center w-full h-full lg:w-[540px] lg:h-[540px] xl:w-[620px] xl:h-[620px]  mb-4 md:mb-0 lg:absolute md:top-[-40px] md:left-[40px] overflow-hidden rounded-md shadow-lg z-10"
            >
              <video
-               ref={videoRef}
-               className="w-full h-full object-cover"
-               src={src}
-               loop
-               muted
-               playsInline
-             ></video>
+            ref={videoRef}
+            src="https://res.cloudinary.com/dpcemurle/video/upload/v1746195212/hhiiobqbexj7bz3aga9d.mp4" // dış video URL'si buraya
+            className="w-full h-full object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+            controls={false}
+          />
            </motion.div>
          </motion.div>
    

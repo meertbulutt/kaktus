@@ -45,7 +45,7 @@ const ButtonCarouselRight = ({src,src2,text,text1,text2}) => {
             >
               <div>
                 <Image
-                 src={`${src ? src : "/images/image-1.png"}`}
+                 src={`${src ? src : "/images/image-1.webp"}`}
                   width={620}
                   height={620}
                   alt="Görsel 1"
@@ -54,7 +54,7 @@ const ButtonCarouselRight = ({src,src2,text,text1,text2}) => {
               </div>
               <div>
                 <Image
-                 src={`${src2 ? src2 : "/images/lahmacun.jpg"}`}
+                 src={`${src2 ? src2 : "/images/lahmacun.webp"}`}
                   width={620}
                   height={620}
                   alt="Görsel 2"

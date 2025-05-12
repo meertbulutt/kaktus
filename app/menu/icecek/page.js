@@ -13,14 +13,14 @@ const Drinks = () => {
   }, []);
 
   const drinks = [
-    { title: "Sıcak İçecekler", path: "icecek/sicak-icecekler", icon: "icecekler-icon/sicak-icecekler-icon.svg" },
-    { title: "Soğuk Kahveler", path: "icecek/soguk-kahveler", icon: "icecekler-icon/soguk-kahveler-icon.svg" },
-    { title: "Frappeler", path: "icecek/frappeler", icon: "icecekler-icon/frappeler-icon.svg" },
-    { title: "Frozen Çeşitleri", path: "icecek/frozen-cesitleri", icon: "icecekler-icon/frozen-cesitleri-icon.svg" },
-    { title: "Soft İçecekler", path: "icecek/soft-icecekler", icon: "icecekler-icon/soft-icecekler-icon.svg" },
-    { title: "Milkshake", path: "icecek/milkshake", icon: "icecekler-icon/milkshake-icon.svg" },
-    { title: "Vitamin Bar", path: "icecek/vitamin-bar", icon: "icecekler-icon/vitamin-bar-icon.svg" },
-    { title: "Redbull Çeşitleri", path: "icecek/redbull-cesitleri", icon: "icecekler-icon/redbull-cesitleri-icon.svg" }
+    { title: "Sıcak İçecekler", path: "menu/icecek/sicak-icecekler", icon: "/images/sicak-icecekler-icon.png" },
+    { title: "Soğuk Kahveler", path: "menu/icecek/soguk-kahveler", icon: "/images/soguk-kahveler-icon.png" },
+    { title: "Frappeler", path: "menu/icecek/frappeler", icon: "/images/frappeler-icon.png" },
+    { title: "Frozen Çeşitleri", path: "menu/icecek/frozen-cesitleri", icon: "/images/frozen-cesitleri-icon.png" },
+    { title: "Soft İçecekler", path: "menu/icecek/soft-icecekler", icon: "/images/soft-icecekler-icon.png" },
+    { title: "Milkshake", path: "menu/icecek/milkshake", icon: "/images/milkshake-icon.png" },
+    { title: "Vitamin Bar", path: "menu/icecek/vitamin-bar", icon: "/images/vitamin-bar-icon.png" },
+    { title: "Redbull Çeşitleri", path: "menu/icecek/redbull-cesitleri", icon: "/images/redbull-cesitleri-icon.png" }
   ];
 
   if (!isMounted) {
@@ -31,7 +31,7 @@ const Drinks = () => {
     <div 
       className="min-h-screen py-8 md:py-12 relative" 
       style={{
-        backgroundImage: 'url("/images/marble-bg.png")',
+        backgroundImage: 'url("/images/marble-bg.webp")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -50,7 +50,7 @@ const Drinks = () => {
         <div className="absolute top-4 right-0 md:right-4 z-10">
           <Link href="/" className="relative w-48 md:w-64 h-24 md:h-32 block">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.webp"
               alt="Kaktus Logo"
               fill
               className="object-contain"
@@ -64,7 +64,7 @@ const Drinks = () => {
             {drinks.map((drink, index) => (
               <motion.a
                 key={drink.path}
-                href={drink.path}
+                href={`/${drink.path}`}
                 className="flex flex-col items-center group"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -75,7 +75,7 @@ const Drinks = () => {
                   whileHover={{ scale: 1.02 }}
                 >
                   <Image
-                    src={`/icons/${drink.icon}`}
+                    src={`${drink.icon}`}
                     alt={drink.title}
                     width={48}
                     height={48}

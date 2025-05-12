@@ -23,38 +23,36 @@ const Footer = () => {
 
   return (
     <footer className="relative flex flex-col w-full bg-kaktus-green text-white pt-10 py-8 px-6 md:px-12 space-y-6 md:space-y-8 text-base sm:text-lg md:text-xl">
-      
       {/* Sosyal Medya İkonları */}
       <div className="flex space-x-4 justify-center">
-        <a href="">
-        <FaFacebookSquare size={28} className="md:w-8 md:h-8" />
+        <a href="https://www.instagram.com/kaktusgardenplus/">
+          <FiInstagram size={32} className="md:w-12 md:h-12" />
         </a>
-        <a href="https://www.instagram.com/kaktusgardenplus/"><FiInstagram size={28} className="md:w-8 md:h-8" /></a>
       </div>
 
       {/* İletişim Bilgileri */}
       <div className="flex flex-col md:flex-row md:space-x-6 justify-center items-center text-center font-bold space-y-2 md:space-y-0">
         <span>Kaktüs Cafe Adana</span>
-        <span>0 312 298 5454</span>
+
         <a
-          href="https://wa.me/0545454445"
+          href="https://wa.me/+905346413326"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
         >
-          Whatsapp 0 545 545 45 45
+          Whatsapp İletişim Hattı
         </a>
       </div>
 
       {/* E-posta */}
-      <a
+      {/* <a
         href="mailto:kaktüscafe@example.com"
         target="_blank"
         rel="noopener noreferrer"
         className="font-bold underline text-center"
       >
         kaktuscafe@gmail.com
-      </a>
+      </a> */}
 
       {/* Logo ve Çizgiler */}
       <div className="w-full flex flex-col justify-center items-center space-y-2 px-6 md:px-12">
@@ -75,6 +73,10 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center md:justify-end space-x-2">
           <span>2025 © Kaktüs Cafe Adana</span>
           <span>Tüm haklar saklıdır.</span>
+          <Link href="https://www.instagram.com/oxxmedya/">
+            Designed by Oxxmedya
+          </Link>
+          <span>Coded by MerCan</span>
         </div>
       </div>
 

@@ -23,7 +23,7 @@ export const products = [
     {
         id: 4,
         name: "Ice Mocha",
-        image: "/images/drinks/soguk-kahveler/ice-mocha.jpg",
+        image: "/images/drinks/soguk-kahveler/ice-mocha.webp",
         description: "",
         price: "180₺",
       },

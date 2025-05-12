@@ -8,13 +8,13 @@ import { motion } from "framer-motion";
 import Header from "@/components/Header";
 
 const images = [
-    "/images/nargile.jpg",
-    "/images/nargile.jpg",
-    "/images/nargile.jpg",
-    "/images/nargile.jpg",
-    "/images/nargile.jpg",
-    "/images/nargile.jpg",
-    "/images/nargile.jpg",
+    "/images/kaktus-dikey.webp",
+    "/images/kaktus-dikey-iki.webp",
+    "/images/kaktus-background.webp",
+    "/images/kaktus-background-iki.webp",
+    "/images/pizza-giris.webp",
+    "/images/lahmacun.webp",
+    "/images/nargile.webp",
 ];
 
 export default function Gallery() {
@@ -72,7 +72,7 @@ export default function Gallery() {
     <div>
       <Header />
       <ImageSlider
-        src={"/images/galery-bg.jpg"}
+        src={"/images/kaktus-background.webp"}
         text={"HAKKIMIZDA SÖYLENECEK İLK SÖZ,SINIRSIZLIK OLMALI"}
         className={"w-full h-screen relative overflow-hidden"}
       />

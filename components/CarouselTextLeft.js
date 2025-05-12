@@ -31,7 +31,7 @@ const CarouselTextLeft = ({ src,src1, text, text1 ,text2}) => {
           >
             <div>
               <Image
-                src={src || "/images/lahmacun.png"}
+                src={src || "/images/kaktus-dikey.webp"}
                 width={620}
                 height={620}
                 alt="Görsel 1"
@@ -40,7 +40,7 @@ const CarouselTextLeft = ({ src,src1, text, text1 ,text2}) => {
             </div>
             <div>
               <Image
-                src={src1 || "/images/lahmacun.jpg"}
+                src={src1 || "/images/kaktus-dikey-iki.webp"}
                 width={620}
                 height={620}
                 alt="Görsel 2"

@@ -45,7 +45,7 @@ export const products = [
       {
         id: 7,
         name: "Kavun Milkshake",
-        image: "/images/drinks/milkshake/kavun-milkshake.jpg",
+        image: "/images/drinks/milkshake/kavun-milkshake.webp",
         description: "",
         price: "225₺",
       },
@@ -59,7 +59,7 @@ export const products = [
       {
         id: 9,
         name: "Antep Fıstıklı Atom",
-        image: "/images/drinks/milkshake/antep-fistikli-atom.png",
+        image: "/images/drinks/milkshake/antep-fistikli-atom.webp",
         description: "",
         price: "300₺",
       },

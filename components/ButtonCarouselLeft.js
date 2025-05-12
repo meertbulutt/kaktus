@@ -35,29 +35,29 @@ const ButtonCarouselLeft = ({text, text1, text2, src, src2}) => {
             </div>
 
             <div className="w-auto relative xl:mr-10 mt-24 2xl:mt-0">
-                <div className="absolute w-[390px] h-[390px] sm:w-[440px] sm:h-[440px] lg:w-[520px] lg:h-[520px] 2xl:w-[620] 2xl:h-[620] bg-kaktus-green rounded-md"></div>
+                <div className="absolute w-[370px] h-[370px] sm:w-[440px] sm:h-[440px] lg:w-[520px] lg:h-[520px] 2xl:w-[620] 2xl:h-[620] bg-kaktus-green rounded-md"></div>
 
-                <div className="mb-4 lg:mb-0 w-[390px] h-[390px] sm:w-[440px] sm:h-[440px] lg:w-[520px] lg:h-[520px] 2xl:w-[620] 2xl:h-[620]">
+                <div className="mb-4 lg:mb-0 w-[370px] h-[370px] sm:w-[440px] sm:h-[440px] lg:w-[520px] lg:h-[520px] 2xl:w-[620] 2xl:h-[620]">
                     <Slider
                         {...settings}
                         className="absolute -top-5 left-5 md:-top-10 md:right-10 xl:-top-7 xl:right-12 2xl:-top-8 2xl:right-12 overflow-hidden flex items-center justify-center rounded-md"
                     >
                         <div>
                             <Image
-                                src={`${src ? src : "/images/image-1.png"}`}
+                                src={`${src ? src : "/images/image-1.webp"}`}
                                 width={620}
                                 height={620}
                                 alt="Görsel 1"
-                                className="object-cover w-[390px] h-[390px] sm:w-[440px] sm:h-[440px] lg:w-[520px] lg:h-[520px] 2xl:w-[620] 2xl:h-[620]"
+                                className="object-cover w-[370px] h-[370px] sm:w-[440px] sm:h-[440px] lg:w-[520px] lg:h-[520px] 2xl:w-[620] 2xl:h-[620]"
                             />
                         </div>
                         <div>
                             <Image
-                                src={`${src2 ? src2 : "/images/lahmacun.jpg"}`}
+                                src={`${src2 ? src2 : "/images/lahmacun.webp"}`}
                                 width={620}
                                 height={620}
                                 alt="Görsel 2"
-                                className="object-cover w-[390px] h-[390px] sm:w-[440px] sm:h-[440px] lg:w-[520px] lg:h-[520px] 2xl:w-[620] 2xl:h-[620]"
+                                className="object-cover w-[370px] h-[370px] sm:w-[440px] sm:h-[440px] lg:w-[520px] lg:h-[520px] 2xl:w-[620] 2xl:h-[620]"
                             />
                         </div>
                     </Slider>

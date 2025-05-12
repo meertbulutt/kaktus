@@ -1,0 +1,72 @@
+export const products = [
+  {
+    id: 1,
+    name: "Ice Americano",
+    image: "/images/drinks/soguk-icecekler/ice-americano.webp",
+    description: "",
+    price: "175₺",
+  },
+  {
+    id: 2,
+    name: "Ice Latte",
+    image: "/images/drinks/soguk-icecekler/ice-latte.webp",
+    description: "",
+    price: "180₺",
+  },
+  {
+    id: 3,
+    name: "Ice Caramel",
+    image: "/images/drinks/soguk-icecekler/ice-caramel.webp",
+    description: "",
+    price: "180₺",
+  },
+  {
+    id: 4,
+    name: "Ice Mocha",
+    image: "/images/drinks/soguk-icecekler/ice-mocha.webp",
+    description: "",
+    price: "180₺",
+  },
+  {
+    id: 5,
+    name: "Ice Vanilya",
+    image: "/images/drinks/soguk-icecekler/ice-vanilya.webp",
+    description: "",
+    price: "180₺",
+  },
+  {
+    id: 6,
+    name: "Ice Macchiato",
+    image: "/images/drinks/soguk-icecekler/ice-macchiato.webp",
+    description: "",
+    price: "180₺",
+  },
+  {
+    id: 7,
+    name: "Ice Cappuccino",
+    image: "/images/drinks/soguk-icecekler/ice-cappuccino.webp",
+    description: "",
+    price: "180₺",
+  },
+  {
+    id: 8,
+    name: "Ice Espresso",
+    image: "/images/drinks/soguk-icecekler/ice-espresso.webp",
+    description: "",
+    price: "175₺",
+  },
+  {
+    id: 9,
+    name: "Ice Double Espresso",
+    image: "/images/drinks/soguk-icecekler/ice-double-espresso.webp",
+    description: "",
+    price: "175₺",
+  },
+  {
+    id: 10,
+    name: "Ice White Chocolate Mocha",
+    image: "/images/drinks/soguk-icecekler/ice-white-chocolate-mocha.webp",
+    description: "",
+    price: "200₺",
+  }
+]; 

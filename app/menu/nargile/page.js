@@ -19,7 +19,7 @@ export default function Nargile() {
     <div 
       className="min-h-screen py-4 sm:py-6 md:py-8 lg:py-12 relative" 
       style={{
-        backgroundImage: 'url("/images/marble-bg.png")',
+        backgroundImage: 'url("/images/marble-bg.webp")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -39,7 +39,7 @@ export default function Nargile() {
           {/* Logo */}
           <div className="relative w-40 sm:w-56 md:w-72 lg:w-80 h-20 sm:h-28 md:h-36 lg:h-40">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.webp"
               alt="Kaktus Logo"
               fill
               className="object-contain"
@@ -94,19 +94,7 @@ export default function Nargile() {
                     className="absolute top-2 sm:top-3 md:top-4 right-2 sm:right-3 md:right-4 bg-white/90 hover:bg-white rounded-full p-1.5 sm:p-2 shadow-lg hover:shadow-xl transition-all duration-200"
                     onClick={() => setSelectedProduct(null)}
                   >
-                    <svg
-                      className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M6 18L18 6M6 6l12 12"
-                      />
-                    </svg>
+                    
                   </button>
                 </div>
                 <div className="p-4 sm:p-6 md:p-8 flex-1 overflow-y-auto">

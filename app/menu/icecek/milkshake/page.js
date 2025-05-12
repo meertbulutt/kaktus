@@ -19,7 +19,7 @@ export default function Milkshake() {
     <div 
       className="min-h-screen py-4 sm:py-6 md:py-8 lg:py-12 relative" 
       style={{
-        backgroundImage: 'url("/images/marble-bg.png")',
+        backgroundImage: 'url("/images/marble-bg.webp")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -39,7 +39,7 @@ export default function Milkshake() {
           {/* Logo */}
           <div className="relative w-40 sm:w-56 md:w-72 lg:w-80 h-20 sm:h-28 md:h-36 lg:h-40">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.webp"
               alt="Kaktus Logo"
               fill
               className="object-contain"

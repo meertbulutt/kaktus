@@ -15,8 +15,8 @@ const Contact = ({ src }) => {
   const serviceId = "service_5yftfd3";
   const publicKey = "f-x7RCRn3OShKto96";
   const buttonCarouselRightText = {
-    src: "/images/giris-icecek.png",
-    src2: "/images/giris-icecek-2.png",
+    src: "/images/giris-icecek.webp",
+    src2: "/images/giris-icecek-2.webp",
   };
 
   const form = useRef();
@@ -51,7 +51,7 @@ const Contact = ({ src }) => {
       <section className="flex flex-col md:flex-row md:mb-0 justify-center items-center md:gap-16 mt-12 md:mt-24 md:px-6 md:pr-16">
         {/* SOL TARAF */}
         <motion.div
-          className="max-w-xl"
+          className="max-w-xl px-4 sm:px-6 md:px-8"
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
@@ -59,20 +59,20 @@ const Contact = ({ src }) => {
         >
           <h2>
             <TextAnimation
-              className={`text-4xl text-kaktus-green-dark font-extrabold mb-16`}
+              className={`text-2xl sm:text-3xl md:text-4xl text-kaktus-green-dark font-extrabold mb-8 sm:mb-12 md:mb-16`}
               text={"Kaktüs Adana"}
             />
           </h2>
 
-          <div className="text-[20px] text-[#51555b] mb-4">
+          <div className="text-base sm:text-lg md:text-[20px] text-[#51555b] mb-4">
             <TextAnimation text={"Beyazevler mh. 80064 sk., 1/A, Beyazevler, 80064. Sk."} />
           </div>
 
-          <div className="text-[20px] text-[#51555b] mb-8">
+          <div className="text-base sm:text-lg md:text-[20px] text-[#51555b] mb-6 sm:mb-8">
             <TextAnimation text={"No:1, 01170 Çukurova/Adana"} />
           </div>
 
-          <div className="flex flex-col space-y-2 text-kaktus-green">
+          <div className="flex flex-col space-y-2 text-kaktus-green text-base sm:text-lg md:text-[20px]">
             <a href="tel:+905346413326">Tel: 0534 641 33 26</a>
             <a href="https://wa.me/05346413326" target="_blank">
               Whatsapp 0534 641 33 26
@@ -92,7 +92,7 @@ const Contact = ({ src }) => {
               "https://www.google.com/maps/dir//Beyazevler+mh.+80064+sk.,+1%2FA,+Beyazevler,+80064.+Sk.+No:1,+01170+%C3%87ukurova%2FAdana/@37.0279558,35.238807,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x15287d0c74a016b9:0x57f3e3435759735a!2m2!1d35.321208!2d37.0279843?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D"
             }
           >
-            <Button buttonText="Yol Tarifi Al" />
+            <Button  buttonText="Yol Tarifi Al" contact={"https://www.google.com/maps/dir//Beyazevler+mh.+80064+sk.,+1%2FA,+Beyazevler,+80064.+Sk.+No:1,+01170+%C3%87ukurova%2FAdana/@37.0279558,35.238807,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x15287d0c74a016b9:0x57f3e3435759735a!2m2!1d35.321208!2d37.0279843?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D"} />
           </a>
         </motion.div>
 

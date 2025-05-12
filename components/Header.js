@@ -46,6 +46,9 @@ const Header = ({ title }) => {
       <Link href="/galery" onClick={() => setIsMobileMenuOpen(false)}>
         Galeri
       </Link>
+      <Link href="/services" onClick={() => setIsMobileMenuOpen(false)}>
+        Hizmetlerimiz
+      </Link>
       <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
         İletişim
       </Link>
@@ -64,15 +67,13 @@ const Header = ({ title }) => {
       >
         <nav className="container mx-auto flex justify-between items-center mt-2 px-4">
           <Link href="/">
-            {/* <svg className="w-28 md:w-36 stroke-green-700">
-
-            </svg> */}
             <Image
               src="/images/logo.png"
               width={140}
               height={140}
               alt="Kaktus-Logo"
               className="w-28 md:w-36 stroke-green-700"
+              priority
             />
           </Link>
 
@@ -84,7 +85,7 @@ const Header = ({ title }) => {
           {/* Mobil Menü Butonu */}
           <button
             onClick={() => setIsMobileMenuOpen(true)}
-            className="md:hidden text-white"
+            className="md:hidden text-white p-2"
           >
             <Menu size={30} />
           </button>
@@ -106,6 +107,7 @@ const Header = ({ title }) => {
               width={120}
               height={120}
               alt="Kaktus-Logo"
+              priority
             />
           </Link>
 
@@ -117,7 +119,7 @@ const Header = ({ title }) => {
           {/* Mobil Menü Butonu */}
           <button
             onClick={() => setIsMobileMenuOpen(true)}
-            className="md:hidden text-kaktus-green"
+            className="md:hidden text-kaktus-green p-2"
           >
             <Menu size={30} />
           </button>
@@ -126,16 +128,16 @@ const Header = ({ title }) => {
 
       {/* Mobil Menü (Sağdan gelen panel) */}
       <div
-        className={`fixed top-0 right-0 h-[50%] w-full md:w-1/2 bg-kaktus-green text-white z-[1100] transform transition-transform duration-500 ${
+        className={`fixed top-0 right-0 h-[70%] w-full md:w-2/3 bg-kaktus-green text-white z-[1100] transform transition-transform duration-500 ${
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex justify-end p-4">
-          <button onClick={() => setIsMobileMenuOpen(false)}>
+        <div className="flex justify-end p-8">
+          <button onClick={() => setIsMobileMenuOpen(false)} className="p-4">
             <X size={30} />
           </button>
         </div>
-        <div className="flex flex-col items-start px-6 space-y-8 text-2xl font-bold mt-10">
+        <div className="flex flex-col items-start px-12 space-y-12 text-3xl font-bold mt-10">
           {navLinks}
         </div>
       </div>

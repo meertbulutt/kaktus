@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#4CAF50" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" sizes="48x48" type="image/png" />
         <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="description" content="Adana'nın en özel köşesinde, lezzet ve huzurun buluştuğu Kaktüs Cafe" />

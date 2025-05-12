@@ -3,7 +3,7 @@ export const products = [
       id: 1,
   
       name: "Granola",
-      image: "/images/foods/saglikli-kaseler/granola.png",
+      image: "/images/foods/saglikli-kaseler/granola.webp",
       description:
         "Ballı Süzme Yoğurt, Granola Parçaları, Ahududu, Yaban Mersini, Muz, Ceviz, Chia Tohumu",
       price: "300₺",
@@ -12,7 +12,7 @@ export const products = [
       id: 2,
   
       name: "Tavuk Kase",
-      image: "/images/foods/saglikli-kaseler/tavuk-kase.png",
+      image: "/images/foods/saglikli-kaseler/tavuk-kase.webp",
       description: "Tavuk Parçaları, Mevsim Sebzeleri, Edamame, Haşlanmış Nohut, Coslow, Kırmızı Pancar Salata, Basmati Pirinç",
       price: "330₺",
     },
@@ -20,7 +20,7 @@ export const products = [
       id: 3,
   
       name: "Bonfile Kase",
-      image: "/images/foods/saglikli-kaseler/bonfile-kase.png",
+      image: "/images/foods/saglikli-kaseler/bonfile-kase.webp",
       description: "Izgara Bonfile, Mevsim Sebzeleri, Edamame, Haşlanmış Nohut, Coslow, Kırmızı Pancar Salata, Basmati Pirinç",
       price: "600₺",
     },
@@ -28,7 +28,7 @@ export const products = [
       id: 4,
   
       name: "Fit Kase",
-      image: "/images/foods/saglikli-kaseler/fit-kase.png",
+      image: "/images/foods/saglikli-kaseler/fit-kase.webp",
       description: "Mevsim Sebzeleri, Edamame, Haşlanmış Nohut, Coslow, Kırmızı Pancar Salata, Basmati Pirinç",
       price: "300₺",
     },
@@ -36,7 +36,7 @@ export const products = [
       id: 5,
   
       name: "Somon Kase",
-      image: "/images/foods/saglikli-kaseler/somon-kase.png",
+      image: "/images/foods/saglikli-kaseler/somon-kase.webp",
       description: "Izgara Somon, Mevsim Sebzeleri, Edamame, Haşlanmış Nohut, Coslow, Kırmızı Pancar Salata, Basmati Pirinç",
       price: "400₺",
     },

@@ -6,29 +6,34 @@ import Header from "@/components/Header";
 const Menu = () => {
   const categories = [
     {
-      title: "Menü",
-      icon: "menu.svg",
-      path: "/menu/yemek"
+      title: "Yemekler",
+      icon: "/images/menu.png",
+      path: "/menu/yemek",
     },
     {
       title: "İçecek",
-      icon: "drinks.svg",
-      path: "/menu/icecek"
+      icon: "/images/drinks.png",
+      path: "/menu/icecek",
     },
     {
       title: "Nargile",
-      icon: "hookah.svg",
-      path: "/menu/nargile"
-    }
+      icon: "/images/hookah.png",
+      path: "/menu/nargile",
+    },
+    {
+      title: "Ekstralar",
+      icon: "/images/ekstralar.png",
+      path: "/menu/ekstralar",
+    },
   ];
 
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
       {/* Background Image Section */}
-      <div className="relative h-[50vh] w-full">
+      <div className="relative h-[40vh] md:h-[50vh] w-full">
         <Image
-          src="/images/menu.jpg"
+          src="/images/kaktus-background.webp"
           alt="Menu Background"
           fill
           className="object-cover"
@@ -37,16 +42,16 @@ const Menu = () => {
       </div>
 
       {/* Categories Section */}
-      <div className="relative h-[50vh] w-full">
+      <div className="relative h-[60vh] md:h-[50vh] w-full">
         <Image
-          src="/images/marble-bg.png"
+          src="/images/marble-bg.webp"
           alt="Marble Background"
           fill
           className="object-cover"
           priority
         />
-        <div className="relative max-w-4xl mx-auto h-full flex items-center justify-center">
-          <div className="grid grid-cols-3 gap-2 md:gap-8 w-full">
+        <div className="relative max-w-6xl mx-auto h-full flex items-center justify-center px-4 py-8 md:py-0">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 w-full">
             {categories.map((category, index) => (
               <motion.div
                 key={category.title}
@@ -57,23 +62,26 @@ const Menu = () => {
               >
                 <motion.a
                   href={category.path}
-                  className="flex items-center justify-center p-4 md:p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300 w-24 h-24 md:w-40 md:h-40 border-2 border-transparent hover:border-kaktus-green"
+                  className="flex items-center justify-center p-4 md:p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 w-full aspect-square max-w-[200px] border-2 border-transparent hover:border-kaktus-green"
                   whileHover={{ scale: 1.02 }}
                 >
                   <Image
-                    src={`/icons/${category.icon}`}
+                    src={`${category.icon}`}
                     alt={category.title}
                     width={48}
                     height={48}
-                    className="w-12 h-12 md:w-20 md:h-20 object-contain transition-transform duration-200 group-hover:scale-110 filter-[invert(32%)_sepia(50%)_saturate(1000%)_hue-rotate(120deg)_brightness(30%)_contrast(100%)]"
+                    className="w-16 h-16 md:w-24 md:h-24 object-contain transition-transform duration-200 group-hover:scale-110 filter-[invert(32%)_sepia(50%)_saturate(1000%)_hue-rotate(120deg)_brightness(30%)_contrast(100%)]"
                   />
                 </motion.a>
-                <span className="text-sm md:text-lg font-light text-gray-700 mt-2 md:mt-3">{category.title}</span>
+                <span className="text-base md:text-xl font-medium text-gray-800 mt-3 md:mt-4">
+                  {category.title}
+                </span>
               </motion.div>
             ))}
           </div>
         </div>
       </div>
+
     </div>
   );
 };

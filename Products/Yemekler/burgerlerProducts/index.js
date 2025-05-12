@@ -3,7 +3,7 @@ export const products = [
       id: 1,
   
       name: "Kaktüs Burger",
-      image: "/images/foods/burgerler/kaktus-burger.jpg",
+      image: "/images/foods/burgerler/kaktus-burger.webp",
       description:
         "Hand Made Dana Köfte, Özel Hamburger Sosu, Yeşillik, Domates, Turşu, Jambon, Cheddar, Kibrit Patates, Parmak Patates, 2 Ayrı Sos",
       price: "400₺",
@@ -12,7 +12,7 @@ export const products = [
       id: 2,
   
       name: "Mushroom De Luxe Burger",
-      image: "/images/foods/burgerler/mushroom-de-luxe-burger.png",
+      image: "/images/foods/burgerler/mushroom-de-luxe-burger.webp",
       description: "Hand Made Dana Köfte, Yeşillik, Domates, Turşu, Mantar, Parmak Patates, 2 Ayrı Sos İle",
       price: "₺",
     },
@@ -20,7 +20,7 @@ export const products = [
       id: 3,
   
       name: "Steak Burger",
-      image: "/images/foods/burgerler/steak-burger.png",
+      image: "/images/foods/burgerler/steak-burger.webp",
       description: "140 Gr. Dana Lokum, Yeşillik, Domates, Turşu, Cheddar, Parmak Patates, 2 Ayrı Sos İle",
       price: "450₺",
     },
@@ -28,7 +28,7 @@ export const products = [
       id: 4,
   
       name: "Kapalı Burger",
-      image: "/images/foods/burgerler/kapali-burger.png",
+      image: "/images/foods/burgerler/kapali-burger.webp",
       description: "Dana Köfte, Karamelize Soğan, Kuzu Tandır, Cheddar, Mantar, Parmak Patates, 2 Ayrı Sos İle",
       price: "500₺",
     },
@@ -36,7 +36,7 @@ export const products = [
       id: 5,
   
       name: "Mexican Burger",
-      image: "/images/foods/burgerler/mexican-burger.png",
+      image: "/images/foods/burgerler/mexican-burger.webp",
       description: "Dana Köfte, Meksika Sos, Cheddar, Turşu, Parmak Patates, 2 Ayrı Sos İle",
       price: "400₺",
     },
@@ -44,7 +44,7 @@ export const products = [
       id: 6,
   
       name: "Double Burger",
-      image: "/images/foods/burgerler/double-burger.png",
+      image: "/images/foods/burgerler/double-burger.webp",
       description: "2 Kat Hamburger Köftesi 280 Gr, Yeşillik, Domates, Turşu, Parmak Patates, 2 Ayrı Sos İle",
       price: "550₺",
     },
@@ -52,7 +52,7 @@ export const products = [
       id: 7,
   
       name: "Classic Hamburger",
-      image: "/images/foods/burgerler/classic-hamburger.png",
+      image: "/images/foods/burgerler/classic-hamburger.webp",
       description: "Krema, Pesto Sosu, Parmesan PeyniriHand Made Dana Köfte, Özel Hamburger Sosu, Yeşillik, Domates, Turşu, Parmak Patates, 2 Ayrı Sos",
       price: "350₺",
     },
@@ -60,7 +60,7 @@ export const products = [
       id: 8,
   
       name: "Chicken Burger",
-      image: "/images/foods/burgerler/chicken-burger.png",
+      image: "/images/foods/burgerler/chicken-burger.webp",
       description: "Özel Hamburger Sosu, Yeşillik, Domates, Turşu, Parmak Patates, 2 Ayrı Sos",
       price: "300₺",
     },
@@ -68,7 +68,7 @@ export const products = [
       id: 9,
   
       name: "Chef Burger",
-      image: "/images/foods/burgerler/chef-burger.png",
+      image: "/images/foods/burgerler/chef-burger.webp",
       description: "Hand Made Dana Köfte, Trüf Mantarlı Mayonez, Köz Biber, Salatalık Turşusu, Cheddar, Parmak Patates, 2 Ayrı Sos",
       price: "350₺",
     },
@@ -76,12 +76,12 @@ export const products = [
         id: 10,
     
         name: "CheeseBurger",
-        image: "/images/foods/burgerler/cheeseburger.png",
+        image: "/images/foods/burgerler/cheeseburger.webp",
         description: "Özel Hamburger Sosu, Cheddar Peyniri, Yeşillik, Domates, Turşu, Parmak Patates, 2 Ayrı Sos",
         price: "425₺",
       },
       {
-        id: 10,
+        id: 11,
     
         name: "Bacon Burger",
         image: "/images/foods/burgerler/bacon-burger.webp",

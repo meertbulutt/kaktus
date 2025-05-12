@@ -3,7 +3,7 @@ export const products = [
       id: 1,
   
       name: "Soğuk Sandviç",
-      image: "/images/foods/aperatifler/soguk-sandvic.png",
+      image: "/images/foods/aperatifler/soguk-sandvic.webp",
       description:
         "Yeşillik, Domates, Salatalık, Kaşar, Salam, Parmak Patates, 2 Ayrı Sos İle",
       price: "275₺",
@@ -12,7 +12,7 @@ export const products = [
       id: 2,
   
       name: "Tavuk Sandviç",
-      image: "/images/foods/aperatifler/tavuk-sandvic.png",
+      image: "/images/foods/aperatifler/tavuk-sandvic.webp",
       description: "Julyen Tavuk, Yeşillik, Domates, Turşu, Parmak Patates, 2 Ayrı Sos İle",
       price: "290₺",
     },
@@ -20,7 +20,7 @@ export const products = [
       id: 3,
   
       name: "Et Sandviç",
-      image: "/images/foods/aperatifler/et-sandvic.png",
+      image: "/images/foods/aperatifler/et-sandvic.webp",
       description: "Julyen Bonfile, Yeşillik, Domates, Turşu, Parmak Patates, 2 Ayrı Sos İle",
       price: "425₺",
     },
@@ -28,7 +28,7 @@ export const products = [
       id: 4,
   
       name: "Kaktüs Sandviç",
-      image: "/images/foods/aperatifler/kaktus-sandvic.png",
+      image: "/images/foods/aperatifler/kaktus-sandvic.webp",
       description: "Kavurma, Soğan, Biber, Kaşar, Domates, Parmak Patates, 2 Ayrı Sos İle",
       price: "450₺",
     },
@@ -36,7 +36,7 @@ export const products = [
       id: 5,
   
       name: "Ton Balıklı Sandviç",
-      image: "/images/foods/aperatifler/ton-balikli-sandvic.png",
+      image: "/images/foods/aperatifler/ton-balikli-sandvic.webp",
       description: "Ton Balığı, Yeşillik, Domates, Soğan, Turşu, Parmak Patates, 2 Ayrı Sos İle",
       price: "500₺",
     },
@@ -44,7 +44,7 @@ export const products = [
       id: 6,
   
       name: "Köfte Sandviç",
-      image: "/images/foods/aperatifler/kofte-sandvic.png",
+      image: "/images/foods/aperatifler/kofte-sandvic.webp",
       description: "Izgara Köfte, Yeşillik, Domates, Turşu, Parmak Patates, 2 Ayrı Sos İle",
       price: "350₺",
     },
@@ -52,7 +52,7 @@ export const products = [
       id: 7,
   
       name: "Tiftik Etli Cheddar Soslu Patates",
-      image: "/images/foods/aperatifler/tiftik-etli-cheddar-soslu-patates.png",
+      image: "/images/foods/aperatifler/tiftik-etli-cheddar-soslu-patates.webp",
       description: "Parmak Patates Üzerine Tandır Eti, Cheddar Sos, Jalepone Biberi",
       price: "375₺",
     },
@@ -60,7 +60,7 @@ export const products = [
       id: 8,
   
       name: "Kaktüs Sepeti",
-      image: "/images/foods/aperatifler/kaktus-sepeti.png",
+      image: "/images/foods/aperatifler/kaktus-sepeti.webp",
       description: "Parmak Patates, Soğan Halkası, Sigara Böreği, Mozerella Stick, Sosis, Çıtır Tavuk",
       price: "310₺",
     },
@@ -68,7 +68,7 @@ export const products = [
       id: 9,
   
       name: "Chicken Cajun",
-      image: "/images/foods/aperatifler/chicken-cajun.png",
+      image: "/images/foods/aperatifler/chicken-cajun.webp",
       description: "Çıtır Tavuk Parçaları, Parmak Patates, 2 Ayrı Sos",
       price: "₺",
     },
@@ -76,7 +76,7 @@ export const products = [
       id: 10,
   
       name: "Parmak Patates",
-      image: "/images/foods/aperatifler/parmak-patates.png",
+      image: "/images/foods/aperatifler/parmak-patates.webp",
       description: "İki Ayrı Sos ile",
       price: "160₺",
     },
@@ -84,7 +84,7 @@ export const products = [
       id: 11,
   
       name: "Elma Dilim Patates",
-      image: "/images/foods/aperatifler/elma-dilim-patates.png",
+      image: "/images/foods/aperatifler/elma-dilim-patates.webp",
       description: "İki Ayrı Sos ile",
       price: "160₺",
     },
@@ -92,7 +92,7 @@ export const products = [
       id: 12,
   
       name: "Köylüm Cips",
-      image: "/images/foods/aperatifler/koylum-cips.png",
+      image: "/images/foods/aperatifler/koylum-cips.webp",
       description: "Taze Patates, Sarımsak, Maydanoz, Nar Ekşisi, Limon",
       price: "180₺",
     },
@@ -100,7 +100,7 @@ export const products = [
       id: 13,
   
       name: "Soğan Halkası",
-      image: "/images/foods/aperatifler/sogan-halkasi.png",
+      image: "/images/foods/aperatifler/sogan-halkasi.webp",
       description: "Parmak Patates ile",
       price: "190₺",
     },
@@ -108,7 +108,7 @@ export const products = [
       id: 14,
   
       name: "Mozarella Stick",
-      image: "/images/foods/aperatifler/mozarella-stick.png",
+      image: "/images/foods/aperatifler/mozarella-stick.webp",
       description: "Parmak Patates, İki Ayrı Sos ile",
       price: "250₺",
     },
@@ -116,7 +116,7 @@ export const products = [
       id: 15,
   
       name: "Kızarmış Sosis",
-      image: "/images/foods/aperatifler/kizarmis-sosis.png",
+      image: "/images/foods/aperatifler/kizarmis-sosis.webp",
       description: "Parmak Patates, İki Ayrı Sos ile",
       price: "210₺",
     },
@@ -124,7 +124,7 @@ export const products = [
       id: 16,
   
       name: "Sigara Böreği",
-      image: "/images/foods/aperatifler/sigara-boregi.png",
+      image: "/images/foods/aperatifler/sigara-boregi.webp",
       description: "Parmak Patates, İki Ayrı Sos ile",
       price: "190₺",
     },
@@ -132,7 +132,7 @@ export const products = [
       id: 17,
   
       name: "Cheddar Soslu Patates",
-      image: "/images/foods/aperatifler/cheddar-soslu-patates.png",
+      image: "/images/foods/aperatifler/cheddar-soslu-patates.webp",
       description: "Tırtıklı Cips,Krema,Cheddar",
       price: "250₺",
     },
@@ -140,12 +140,12 @@ export const products = [
         id: 18,
     
         name: "Chicken Wings",
-        image: "/images/foods/aperatifler/chicken-wings.png",
+        image: "/images/foods/aperatifler/chicken-wings.webp",
         description: "",
         price: "₺",
       },
       {
-        id: 18,
+        id: 19,
     
         name: "Chicken Fingers",
         image: "/images/foods/aperatifler/chicken-fingers.webp",
@@ -153,7 +153,7 @@ export const products = [
         price: "₺",
       },
       {
-        id: 18,
+        id: 20,
     
         name: "Günün Çorbası",
         image: "/images/foods/aperatifler/gunun-corbasi.webp",
