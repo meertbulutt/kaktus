@@ -68,7 +68,7 @@ const Header = ({ title }) => {
         <nav className="container mx-auto flex justify-between items-center mt-2 px-4">
           <Link href="/">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.webp"
               width={140}
               height={140}
               alt="Kaktus-Logo"
@@ -103,7 +103,7 @@ const Header = ({ title }) => {
         <nav className="container h-36 mx-auto flex justify-between items-center px-4">
           <Link href="/">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.webp"
               width={120}
               height={120}
               alt="Kaktus-Logo"
