@@ -23,7 +23,7 @@ const HalfHeroSection = () => {
     dotsClass: "slick-dots slick-thumb",
   };
 
-  const videos = ["/videos/buyuyen-video.mp4", "/videos/buyuyen-video.mp4"];
+  const videos = ["https://res.cloudinary.com/dpcemurle/video/upload/v1746195081/flrwqufjibyfhx8vy7xq.mp4"];
 
   return (
     <>
