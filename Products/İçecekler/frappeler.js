@@ -27,6 +27,13 @@ export const products = [
         description: "",
         price: "200₺",
       },
+      {
+        id: 5,
+        name: "Oreolu Frappe",
+        image: "/images/drinks/frappeler/oreolu-frappe.webp",
+        description: "",
+        price: "200₺",
+      },
       
   ];
   

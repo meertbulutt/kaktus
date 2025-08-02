@@ -8,6 +8,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { useRouter } from "next/navigation";
 import Header from "@/components/Header";
+import FixedContactButtons from "@/components/FixedContactButtons.js";
 
 const Contact = ({ src }) => {
   const router = useRouter();
@@ -86,14 +87,11 @@ const Contact = ({ src }) => {
             </a>
           </div>
 
-          <a
-            target="_blank"
-            href={
-              "https://www.google.com/maps/dir//Beyazevler+mh.+80064+sk.,+1%2FA,+Beyazevler,+80064.+Sk.+No:1,+01170+%C3%87ukurova%2FAdana/@37.0279558,35.238807,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x15287d0c74a016b9:0x57f3e3435759735a!2m2!1d35.321208!2d37.0279843?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D"
-            }
+          <div
+           
           >
             <Button  buttonText="Yol Tarifi Al" contact={"https://www.google.com/maps/dir//Beyazevler+mh.+80064+sk.,+1%2FA,+Beyazevler,+80064.+Sk.+No:1,+01170+%C3%87ukurova%2FAdana/@37.0279558,35.238807,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x15287d0c74a016b9:0x57f3e3435759735a!2m2!1d35.321208!2d37.0279843?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D"} />
-          </a>
+          </div>
         </motion.div>
 
         {/* SAĞ TARAF */}
@@ -177,6 +175,8 @@ const Contact = ({ src }) => {
           </form>
         </section>
       </section>
+      <FixedContactButtons/>
+
     </div>
   );
 };

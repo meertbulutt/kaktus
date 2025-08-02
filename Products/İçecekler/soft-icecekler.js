@@ -16,23 +16,23 @@ export const products = [
     {
       id: 3,
       name: "Karpuz-Çilek Soda",
-      image: "/images/drinks/soft-icecekler/soda.webp",
+      image: "/images/drinks/soft-icecekler/karpuz-cilek-soda.webp",
       description: "",
-      price: "1000₺",
+      price: "100₺",
     },
     {
         id: 4,
         name: "Limonlu Soda",
-        image: "/images/drinks/soft-icecekler/soda.webp",
+        image: "/images/drinks/soft-icecekler/limonlu-soda.webp",
         description: "",
         price: "100₺",
       },
       {
         id: 5,
         name: "Elmalı Soda",
-        image: "/images/drinks/soft-icecekler/soda.webp",
+        image: "/images/drinks/soft-icecekler/elmali-soda.webp",
         description: "",
-        price: "350₺",
+        price: "100₺",
       },
       {
         id: 6,

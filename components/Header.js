@@ -65,7 +65,7 @@ const Header = ({ title }) => {
             : "opacity-100 transform translate-y-0"
         }`}
       >
-        <nav className="container mx-auto flex justify-between items-center mt-2 px-4">
+        <nav className="container mx-auto flex justify-between items-center mt-2">
           <Link href="/">
             <Image
               src="/images/logo.webp"
@@ -78,7 +78,7 @@ const Header = ({ title }) => {
           </Link>
 
           {/* Masaüstü menü */}
-          <div className="hidden md:flex space-x-12 text-xl mr-4 text-white font-extrabold tracking-wider">
+          <div className="hidden md:flex space-x-6 lg:space-x-12 lg:text-xl mr-4 text-white font-extrabold tracking-wider">
             {navLinks}
           </div>
 
@@ -107,12 +107,13 @@ const Header = ({ title }) => {
               width={120}
               height={120}
               alt="Kaktus-Logo"
+              className="w-32 md:w-36 lg:w-40 mr-18 pr-8"
               priority
             />
           </Link>
 
           {/* Masaüstü Menü */}
-          <div className="hidden md:flex space-x-12 font-sans text-xl mr-4 text-kaktus-green font-extrabold tracking-wider">
+          <div className="hidden md:flex space-x-12 font-sans text-base lg:text-xl mr-4 text-kaktus-green font-extrabold tracking-wider">
             {navLinks}
           </div>
 

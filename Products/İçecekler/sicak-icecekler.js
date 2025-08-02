@@ -89,7 +89,7 @@ export const products = [
         name: "Double Espresso",
         image: "/images/drinks/sicak-icecekler/double-espresso.webp",
         description: "",
-        price: "125₺",
+        price: "175₺",
       },
       {
         id: 14,
@@ -117,7 +117,7 @@ export const products = [
         name: "Macchiato",
         image: "/images/drinks/sicak-icecekler/macchiato.webp",
         description: "",
-        price: "200₺",
+        price: "175₺",
       },
       {
         id: 18,
@@ -278,7 +278,7 @@ export const products = [
         {
           id: 40,
           name: "Kış Çayı",
-          image: "/images/drinks/bitki-caylari/yesil-cay.webp",
+          image: "/images/drinks/bitki-caylari/kis-cayi.webp",
           description: "",
           price: "200₺",
         },

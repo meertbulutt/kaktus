@@ -17,8 +17,10 @@ const Yemekler = () => {
 
   const foods = [
     { title: "Kahvaltı", path: "/menu/yemek/kahvalti", icon: "/images/kahvaltilar-icon.png" },
+    { title: "Tostlar", path: "/menu/yemek/tostlar", icon: "/images/tostlar-icon.png" },
+    { title: "Sandvicler", path: "/menu/yemek/sandvicler", icon: "/images/sandvicler-icon.png" },
     { title: "Aperatifler", path: "/menu/yemek/aperatifler", icon: "/images/aperatifler-icon.png" },
-    { title: "Wrapler", path: "/menu/yemek/wrapler", icon: "/images/mexican-icon.png" },
+    { title: "Mexican Yemekleri", path: "/menu/yemek/mexican", icon: "/images/mexican-icon.png" },
     { title: "Tavuk Yemekleri", path: "/menu/yemek/tavuk-yemekleri", icon: "/images/tavuk-yemekleri-icon.png" },
     { title: "Makarnalar", path: "/menu/yemek/makarnalar", icon: "/images/makarnalar-icon.png" },
     { title: "Krepler", path: "/menu/yemek/krepler", icon: "/images/krepler-icon.png" },  
@@ -30,6 +32,7 @@ const Yemekler = () => {
     { title: "Pizzalar", path: "/menu/yemek/pizzalar", icon: "/images/pizzalar-icon.png" },
     { title: "Et Yemekleri", path: "/menu/yemek/et-yemekleri", icon: "/images/et-yemekleri-icon.png" },
     { title: "Tatlılar-Çerezler", path: "/menu/yemek/tatli-lezzetler", icon: "/images/tatli-lezzetler-icon.png" },
+    { title: "Deniz Ürünleri", path: "/menu/yemek/deniz-urunleri", icon: "/images/deniz-urunleri-icon.png" },
   ];
 
   return (

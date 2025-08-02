@@ -169,6 +169,20 @@ export const products = [
     price: "375₺",
   },
   {
+    id: 48,
+    name: "Dark Special Nargile",
+    image: "/images/nargile.webp",
+    description: "",
+    price: "450₺",
+  },
+  {
+    id: 49,
+    name: "Üç Maymunlar",
+    image: "/images/nargile.webp",
+    description: "",
+    price: "500₺",
+  },
+  {
     id: 25,
     name: "Tatlı Cadı Lüle",
     image: "/images/nargile.webp",
@@ -329,4 +343,19 @@ export const products = [
     description: "",
     price: "275₺",
   },
+  {
+    id: 50,
+    name: "Dark Special Lüle",
+    image: "/images/nargile.webp",
+    description: "",
+    price: "275₺",
+  },
+  {
+    id: 51,
+    name: "Üç Maymunlar Lüle",
+    image: "/images/nargile.webp",
+    description: "",
+    price: "275₺",
+  },
+  
 ];

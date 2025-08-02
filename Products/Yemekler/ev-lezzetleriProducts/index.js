@@ -20,17 +20,17 @@ export const products = [
       id: 3,
   
       name: "Tavuk Güveç",
-      image: "/images/foods/ev-lezzetleri/tavuk-guvec.webp",
+      image: "/images/foods/ev-lezzetleri/tavuk-tava.webp",
       description: "Tavuk But, Soğan, Biber, Sarımsak, Domates, Pilav, Salata",
-      price: "₺",
+      price: "450₺",
     },
     {
       id: 4,
   
       name: "Et Güveç",
-      image: "/images/foods/ev-lezzetleri/et-guvec.webp",
+      image: "/images/foods/ev-lezzetleri/et-tava.webp",
       description: "Küp Doğranmış Dana Bonfile, Sarımsak, Soğan, Biber, Domates, Pilav, Salata",
-      price: "₺",
+      price: "650₺",
     },
     {
       id: 5,
@@ -48,6 +48,22 @@ export const products = [
       description: "Özenle Hazırlanmış, Mantı, Süzme Yoğurt, Tereyağlı Sos",
       price: "350₺",
     },
+    // {
+    //   id: 7,
+  
+    //   name: "Tavuk Tava",
+    //   image: "/images/foods/ev-lezzetleri/tavuk-tava.webp",
+    //   description: "Tavuk parçaları, renkli biberler, özel domates sos, soğan ve sarımsak",
+    //   price: "450₺",
+    // },
+    // {
+    //   id: 8,
+    //   name: "Et Tava",
+    //   image: "/images/foods/ev-lezzetleri/et-tava.webp",
+    //   description:
+    //     "Dana et parçaları, renkli biberler, özel domates sos, soğan ve sarımsak ile bir Osmanlı klasiği",
+    //   price: "650₺",
+    // },
    
     // Devamını ekleyebilirsin...
   ];

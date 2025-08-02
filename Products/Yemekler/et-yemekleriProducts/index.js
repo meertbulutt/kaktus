@@ -89,14 +89,6 @@ export const products = [
       price: "550₺",
     },
     {
-      id: 12,
-  
-      name: "Dallas Steak",
-      image: "/images/foods/et-yemekleri/dallas-steak.webp",
-      description: "Dana Pirzola, Baby Patates, Mevsim Sebzeleri, Özel Soslar",
-      price: "₺",
-    },
-    {
       id: 13,
   
       name: "Kuzu Tandır",
@@ -110,7 +102,7 @@ export const products = [
       name: "Kuzu Pirzola",
       image: "/images/foods/et-yemekleri/kuzu-pirzola.webp",
       description: "300 Gr Kuzu Pirzola, Biber, Domates, Salata, Parmak Patates",
-      price: "₺",
+      price: "750₺",
     },
     {
       id: 15,
@@ -120,30 +112,8 @@ export const products = [
       description: "12 Saat Fırında Pişmiş İncik, Dövme Pilav, Köylüm Patates, Mantar, Soğan, Domates, Biber",
       price: "900₺",
     },
-    {
-      id: 16,
-      name: "Beef Quesedilla",
-      image: "/images/foods/et-yemekleri/beef-quesedilla.webp",
-      description:
-        "Julyen Et, Soğan, Biber, Mantar, Meksika Fasulyesi, Kaşar, Avakado Sos, Salsa Sos, Chef Sos, Tortilla Ekmeği, Parmak Patates",
-      price: "700₺",
-    },
-    {
-      id: 17,
-      name: "Beef Fajita",
-      image: "/images/foods/et-yemekleri/beef-fajita.webp",
-      description:
-        "Izgara Biftek Mix, Biber, Soğan, Avakado Sos, Salsa Sos, Chef Sos, Tortilla Ekmeği",
-      price: "625₺",
-    },
-    {
-      id: 18,
-      name: "Et Tava",
-      image: "/images/foods/et-yemekleri/et-tava.webp",
-      description:
-        "Dana et parçaları, renkli biberler, özel domates sos, soğan ve sarımsak ile bir Osmanlı klasiği",
-      price: "650₺",
-    },
+    
+    
    
     // Devamını ekleyebilirsin...
   ];

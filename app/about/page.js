@@ -7,6 +7,7 @@ import TextAnimation from "@/components/TextAnimation";
 import VideoAnimationLeft from "@/components/VideoAnimationLeft";
 import React from "react";
 import Header from "@/components/Header";
+import FixedContactButtons from "@/components/FixedContactButtons";
 
 const about = () => {
   const firstSectionText = {
@@ -62,7 +63,8 @@ const about = () => {
         text2={videoAnimationLeftText.text2}
       />
 
-      
+      <FixedContactButtons/>
+
     </div>
   );
 };

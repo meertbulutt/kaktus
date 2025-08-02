@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
 
-    name: "Serpme Kahvaltı",
+    name: "Serpme Kahvaltı(İki Kişilik)",
     image: "/images/foods/kahvalti/serpme-kahvalti.webp",
     description:
       "Kaşar Peyniri,Ezine Peyniri,Antep Eritme Peyniri,Çeçil Peyniri,Misket Peyniri,Biberli Sarı Peynir,Hellim Peyniri,Bal Kaymak,Pekmez,Tahin,Çikolata,Kaysı Reçeli,Çilek Reçeli,Fıstık Helvası,Salam,Jambon,Tereyağı,Yeşil Zeytin,Izgara Zeytin,Siyah Zeytin,Zahter, Zeytin Yağı, Göz Yumurta, Parmak Patates, Sosis, Mozerella Stick, Sigara Böreği, Pişi, Kuru Kayısı, Kuru İncir, Ceviz, Domates, Salatalık, S. Biber, Yeşillik, Sucuk, Meyve Tabağı, Karışık Kızartma Tabağı",
@@ -58,14 +58,13 @@ export const products = [
     price: "350₺",
   },
   {
-    id: 8,
+    id: 14,
 
-    name: "Sebzeli-Omlet",
-    image: "/images/foods/kahvalti/sebzeli-omlet.webp",
-    description: "Biber çeşitleri, mantar, soğan, domates ve yumurta",
-    price: "225₺",
+    name: "Sahanda Kavurma",
+    image: "/images/foods/kahvalti/sahanda-kavurma.webp",
+    description: "Dinlendirilmiş dana bonfile, garnitürlerle servis edilir.",
+    price: "400₺",
   },
-
   {
     id: 9,
 
@@ -73,6 +72,14 @@ export const products = [
     image: "/images/foods/kahvalti/kavurmali-yumurta.webp",
     description: "Dinlendirilmiş dana bonfile, garnitürlerle servis edilir.",
     price: "350₺",
+  },
+  {
+    id: 8,
+
+    name: "Sebzeli-Omlet",
+    image: "/images/foods/kahvalti/sebzeli-omlet.webp",
+    description: "Biber çeşitleri, mantar, soğan, domates ve yumurta",
+    price: "225₺",
   },
   {
     id: 10,
@@ -106,57 +113,7 @@ export const products = [
     description: "Kaşar, cheddar, hellim, ezine, eski kaşar, örgü, beyaz peynir, söğüş tabağı, kuru üzüm ve kuru kayısı eşliğinde",
     price: "300₺",
   },
-
-  {
-    id: 14,
-
-    name: "Yengen Tost",
-    image: "/images/foods/kahvalti/yengen-tost.webp",
-    description: "Sucuk,Kaşar,Domates,Salatalık,Zeytin,Turşu",
-    price: "240₺",
-  },
-  {
-    id: 15,
-
-    name: "Kavurmalı Tost",
-    image: "/images/foods/kahvalti/kavurmali-tost.webp",
-    description: "Kavurma,Kaşar,Domates,Salatalık,Zeytin",
-    price: "350₺",
-  },
-  {
-    id: 16,
-
-    name: "Kaktüs Tost",
-    image: "/images/foods/kahvalti/kaktus-tost.webp",
-    description:
-      "Cheddar, Kaşar, Pesto Sos, Jambon, Domates, Salatalık, Zeytin",
-    price: "300₺",
-  },
-  {
-    id: 17,
-
-    name: "Kaşarlı Tost",
-    image: "/images/foods/kahvalti/kasarli-tost.webp",
-    description: "Kaşar,Domates,Salatalık,Zeytin",
-    price: "190₺",
-  },
-
-  {
-    id: 18,
-
-    name: "Sahanda Kavurma",
-    image: "/images/foods/kahvalti/sahanda-kavurma.webp",
-    description: "Dinlendirilmiş dana bonfile, garnitürlerle servis edilir.",
-    price: "₺",
-  },
-  {
-    id: 19,
-
-    name: "Karışık Tost(Sucuklu-Kaşarlı)",
-    image: "/images/foods/kahvalti/karisik-tost.webp",
-    description: "Sucuk,Kaşar,Domates,Salatalık,Zeytin",
-    price: "230₺",
-  },
+  
 
   // Devamını ekleyebilirsin...
 ];

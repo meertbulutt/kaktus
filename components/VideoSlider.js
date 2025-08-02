@@ -19,7 +19,7 @@ const VideoSlider = () => {
       <div className="w-full h-screen relative">
       <video
         ref={videoRef}
-        src="https://res.cloudinary.com/dpcemurle/video/upload/v1746105297/s5yeqvofehjhfpjgwonw.mp4" // dış video URL'si buraya
+        src="https://kaktus2.b-cdn.net/buyuyen-video.mp4" // dış video URL'si buraya
         className="w-full h-full object-cover"
         autoPlay
         muted
@@ -34,7 +34,7 @@ const VideoSlider = () => {
             transition={{ duration: 0.75, ease: "easeOut" }}
             className="text-white text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold max-w-[90%] sm:max-w-[80%]"
           >
-            YEŞİLİN İÇİNDE, TATLARIN EN GÜZELİ: KAKTÜS CAFE GARDEN...
+            YEŞİLİN İÇİNDE, TATLARIN EN GÜZELİ: KAKTÜS GARDEN CAFE...
           </motion.h1>
         </div>
       </div>

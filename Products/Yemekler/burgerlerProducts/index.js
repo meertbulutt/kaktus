@@ -11,10 +11,10 @@ export const products = [
     {
       id: 2,
   
-      name: "Mushroom De Luxe Burger",
+      name: "Mushroom Deluxe Burger",
       image: "/images/foods/burgerler/mushroom-de-luxe-burger.webp",
       description: "Hand Made Dana Köfte, Yeşillik, Domates, Turşu, Mantar, Parmak Patates, 2 Ayrı Sos İle",
-      price: "₺",
+      price: "400₺",
     },
     {
       id: 3,

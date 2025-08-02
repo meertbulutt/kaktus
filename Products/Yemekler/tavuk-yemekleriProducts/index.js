@@ -1,13 +1,12 @@
 export const products = [
-    {
+   {
       id: 1,
   
       name: "Tavuk Izgara",
-      image: "/images/foods/tavuk-yemekleri/tavuk-izgara.webp",
-      description:
-        "200 Gr. Tavuk Izgara, Patates Püresi, Mevsim Sebzeleri, Domates, Biber",
+      image: "/images/foods/tavuk-yemekleri/tavuk-bonfile.webp",
+      description: "200 Gr. Tavuk Izgara, Patates Püresi, Mevsim Sebzeleri, Domates, Biber",
       price: "380₺",
-    },
+    }, 
     {
       id: 2,
   
@@ -89,23 +88,7 @@ export const products = [
       description: "Ispanak, Soğan, Mantar, Krema, Tavuk Pirzola, Parmesan, Parmak Patates, Salata",
       price: "410₺",
     },
-    {
-      id: 13,
-      name: "Chicken Fajita",
-      image: "/images/foods/tavuk-yemekleri/chicken-fajita.webp",
-      description:
-        "Izgara Tavuk Mix, Biber, Soğan, Avakado Sos, Salsa Sos, Chef Sos, Tortilla Ekmeği",
-      price: "410₺",
-    },
     
-    {
-      id: 14,
-      name: "Chicken Quesedilla",
-      image: "/images/foods/tavuk-yemekleri/chicken-quesedilla.webp",
-      description:
-        "Julyen Tavuk, Soğan, Biber, Mısır, Meksika Fasulyesi, Mantar, Kaşar, Avokado Sos, Salsa Sos, Chef Sos, Parmak Patates",
-      price: "400₺",
-    },
     {
       id: 15,
   
@@ -122,6 +105,7 @@ export const products = [
       description: "Tavuk parçaları, renkli biberler, özel domates sos, soğan ve sarımsak",
       price: "450₺",
     },
+    
     
     // Devamını ekleyebilirsin...
   ];

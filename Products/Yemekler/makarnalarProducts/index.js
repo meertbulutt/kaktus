@@ -22,7 +22,7 @@ export const products = [
       name: "Kremalı Tavuklu Penne",
       image: "/images/foods/makarnalar/kremali-tavuklu-penne.webp",
       description: "Julyen Tavuk Parçaları, Biber, Mantar, Krema",
-      price: "3250₺",
+      price: "325₺",
     },
     {
       id: 4,
@@ -81,14 +81,6 @@ export const products = [
       price: "325₺",
     },
     {
-      id: 11,
-  
-      name: "Mac and Cheese",
-      image: "/images/foods/makarnalar/mac-and-cheese.webp",
-      description: "Cheddar Peyniri, Süt, Tereyağı, Kremalı Sos",
-      price: "300₺",
-    },
-    {
       id: 12,
   
       name: "3 Renkli Tortelini",
@@ -112,6 +104,8 @@ export const products = [
       description: "Noodle, Havuç, Kabak, Kırmızı Biber, Soya Sosu, Susam",
       price: "325₺",
     },
+    
+    
    
     // Devamını ekleyebilirsin...
   ];

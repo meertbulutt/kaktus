@@ -60,7 +60,7 @@ export const products = [
     name: "Doğum Günü Pastası",
     image: "/images/foods/tatli-lezzetler/dogum-gunu-pastasi.webp",
     description: "",
-    price: "₺",
+    price: "Fiyat Alınız",
   },
   {
     id: 10,
@@ -192,7 +192,7 @@ export const products = [
     id: 29,
     name: "Sufle",
     image: "/images/foods/tatli-lezzetler/sufle.webp",
-    description: "Sucuk,Kaşar,Domates,Salatalık,Zeytin",
+    description: "Sufle",
     price: "300₺",
   },
   {

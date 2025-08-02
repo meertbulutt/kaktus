@@ -30,7 +30,7 @@ const Biggerbass = () => {
         >
           <video
             ref={videoRef}
-            src="https://res.cloudinary.com/dpcemurle/video/upload/v1746195081/flrwqufjibyfhx8vy7xq.mp4" // dış video URL'si buraya
+            src="https://kaktus2.b-cdn.net/yatay-kahvalti.mp4" // dış video URL'si buraya
             className="w-full h-full object-cover"
             autoPlay
             muted

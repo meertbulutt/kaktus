@@ -6,6 +6,7 @@ import TextAnimation from "@/components/TextAnimation";
 import ImageSlider from "@/components/ImageSlider";
 import { motion } from "framer-motion";
 import Header from "@/components/Header";
+import FixedContactButtons from "@/components/FixedContactButtons";
 
 const images = [
     "/images/kaktus-dikey.webp",
@@ -167,6 +168,8 @@ export default function Gallery() {
           </div>
         )}
       </div>
+      <FixedContactButtons/>
+
     </div>
   );
 }

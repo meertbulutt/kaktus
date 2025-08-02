@@ -1,53 +1,5 @@
 export const products = [
-    {
-      id: 1,
-  
-      name: "Soğuk Sandviç",
-      image: "/images/foods/aperatifler/soguk-sandvic.webp",
-      description:
-        "Yeşillik, Domates, Salatalık, Kaşar, Salam, Parmak Patates, 2 Ayrı Sos İle",
-      price: "275₺",
-    },
-    {
-      id: 2,
-  
-      name: "Tavuk Sandviç",
-      image: "/images/foods/aperatifler/tavuk-sandvic.webp",
-      description: "Julyen Tavuk, Yeşillik, Domates, Turşu, Parmak Patates, 2 Ayrı Sos İle",
-      price: "290₺",
-    },
-    {
-      id: 3,
-  
-      name: "Et Sandviç",
-      image: "/images/foods/aperatifler/et-sandvic.webp",
-      description: "Julyen Bonfile, Yeşillik, Domates, Turşu, Parmak Patates, 2 Ayrı Sos İle",
-      price: "425₺",
-    },
-    {
-      id: 4,
-  
-      name: "Kaktüs Sandviç",
-      image: "/images/foods/aperatifler/kaktus-sandvic.webp",
-      description: "Kavurma, Soğan, Biber, Kaşar, Domates, Parmak Patates, 2 Ayrı Sos İle",
-      price: "450₺",
-    },
-    {
-      id: 5,
-  
-      name: "Ton Balıklı Sandviç",
-      image: "/images/foods/aperatifler/ton-balikli-sandvic.webp",
-      description: "Ton Balığı, Yeşillik, Domates, Soğan, Turşu, Parmak Patates, 2 Ayrı Sos İle",
-      price: "500₺",
-    },
-    {
-      id: 6,
-  
-      name: "Köfte Sandviç",
-      image: "/images/foods/aperatifler/kofte-sandvic.webp",
-      description: "Izgara Köfte, Yeşillik, Domates, Turşu, Parmak Patates, 2 Ayrı Sos İle",
-      price: "350₺",
-    },
+    
     {
       id: 7,
   
@@ -62,7 +14,7 @@ export const products = [
       name: "Kaktüs Sepeti",
       image: "/images/foods/aperatifler/kaktus-sepeti.webp",
       description: "Parmak Patates, Soğan Halkası, Sigara Böreği, Mozerella Stick, Sosis, Çıtır Tavuk",
-      price: "310₺",
+      price: "350₺",
     },
     {
       id: 9,
@@ -70,7 +22,7 @@ export const products = [
       name: "Chicken Cajun",
       image: "/images/foods/aperatifler/chicken-cajun.webp",
       description: "Çıtır Tavuk Parçaları, Parmak Patates, 2 Ayrı Sos",
-      price: "₺",
+      price: "300₺",
     },
     {
       id: 10,
@@ -142,16 +94,9 @@ export const products = [
         name: "Chicken Wings",
         image: "/images/foods/aperatifler/chicken-wings.webp",
         description: "",
-        price: "₺",
+        price: "320₺",
       },
-      {
-        id: 19,
-    
-        name: "Chicken Fingers",
-        image: "/images/foods/aperatifler/chicken-fingers.webp",
-        description: "",
-        price: "₺",
-      },
+      
       {
         id: 20,
     

@@ -7,13 +7,6 @@ export const products = [
       price: "125₺",
     },
     {
-      id: 2,
-      name: "Hizmet Bedeli",
-      image: "/images/kaktus-background.webp",
-      description: "",
-      price: "₺",
-    },
-    {
       id: 3,
       name: "Püre",
       image: "/images/foods/ekstralar/pure.webp",

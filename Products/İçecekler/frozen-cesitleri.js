@@ -4,7 +4,7 @@ export const products = [
       name: "Mango Frozen",
       image: "/images/drinks/frozen-cesitleri/mango-frozen.webp",
       description:"",
-      price: "300₺",
+      price: "225₺",
     },
     {
       id: 2,
@@ -12,14 +12,14 @@ export const products = [
       name: "Çilek Frozen",
       image: "/images/drinks/frozen-cesitleri/cilek-frozen.webp",
       description: "",
-      price: "180₺",
+      price: "200₺",
     },
     {
       id: 3,
       name: "Limon Frozen",
       image: "/images/drinks/frozen-cesitleri/limon-frozen.webp",
       description: "",
-      price: "350₺",
+      price: "200₺",
     },
     {
         id: 4,

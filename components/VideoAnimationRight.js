@@ -60,7 +60,7 @@ const VideoAnimationRight = ({text, text1, text2, src}) => {
            >
              <video
             ref={videoRef}
-            src="https://res.cloudinary.com/dpcemurle/video/upload/v1746195212/hhiiobqbexj7bz3aga9d.mp4" // dış video URL'si buraya
+            src="https://kaktus2.b-cdn.net/drone.mp4" // dış video URL'si buraya
             className="w-full h-full object-cover"
             autoPlay
             muted

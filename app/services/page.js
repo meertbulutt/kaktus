@@ -8,6 +8,7 @@ import TextAnimation from "@/components/TextAnimation";
 import React from "react";
 import Header from "@/components/Header";
 import CarouselTextRight from "@/components/CarouselTextRight";
+import FixedContactButtons from "@/components/FixedContactButtons";
 
 const services = () => {
   const firstSectionText = {
@@ -15,33 +16,33 @@ const services = () => {
   };
 
   const carouselTextLeftText = {
-    src: "/images/kaktus-dikey.png",
-    src1: "/images/kaktus-dikey-iki.png",
+    src: "/images/oyun-alani.webp",
+    src1: "/images/oyun-alani.webp",
     text1: "Minik misafirlerimize özel, eğlence dolu bir dünya! Renkli oyuncaklar, güvenli alanlar ve bol kahkahayla çocuklar keyifli vakit geçirirken, siz de sevdiklerinizle günün tadını çıkarabilirsiniz."
   };
   const carouselTextRightText = {
-    src: "/images/kaktus-dikey.png",
-    src1: "/images/kaktus-dikey-iki.png",
+    src: "/images/tabu.webp",
+    src1: "/images/tabu.webp",
     text1: "Eğlenceli anların adresi! Tabu, sevdiklerinizle birlikte neşeli zamanlar geçirmenizi sağlayan klasik bir oyun. Hem eğlenceli hem de zeka geliştirici bu oyunu, Kaktüs Cafe’de arkadaşlarınızla veya ailenizle oynayabilirsiniz."
   };
   const carouselTextLeftText1 = {
-    src: "/images/kaktus-dikey.png",
-    src1: "/images/kaktus-dikey-iki.png",
+    src: "/images/okey-masasi.webp",
+    src1: "/images/okey-masasi.webp",
     text1: "Okey keyfini bir adım öteye taşıyoruz! Otomatik okey masalarımızda, hız ve pratiklik bir arada. Her seviyeden oyuncuya hitap eden bu masalarda, eğlenceli bir okey deneyimi yaşarken zamanın nasıl geçtiğini anlamayacaksınız."
   };
   const carouselTextRightText1 = {
-    src: "/images/kaktus-dikey.png",
-    src1: "/images/kaktus-dikey-iki.png",
+    src: "/images/okey-masasi.webp",
+    src1: "/images/okey-masasi.webp",
     text1: "Klasik kağıt oyunlarının keyfini Kaktüs Cafe’de çıkarın! Pişti, batak ve daha pek çok oyun seçeneğiyle arkadaşlarınızla eğlenceli ve rekabet dolu anlar geçirebilirsiniz. Her yaşa hitap eden oyunlarımızla, sevdiklerinizle unutulmaz vakitler sizi bekliyor."
   };
   const carouselTextLeftText2 = {
-    src: "/images/kaktus-dikey.png",
-    src1: "/images/kaktus-dikey-iki.png",
+    src: "/images/nargileler.webp",
+    src1: "/images/nargileler.webp",
     text1: "Günlük stresinize veda edin, nargile keyfini Kaktüs Cafe’de yaşayın! Farklı aromalarla zenginleşen nargile seçeneklerimizle, rahatlatıcı bir atmosferde sevdiklerinizle keyifli anlar geçirebilirsiniz."
   };
   const carouselTextRightText2 = {
-    src: "/images/kaktus-dikey.png",
-    src1: "/images/kaktus-dikey-iki.png",
+    src: "/images/foods/kahvalti/serpme-kahvalti.webp",
+    src1: "/images/foods/kahvalti/serpme-kahvalti.webp",
     text1: "Güne lezzetli bir başlangıç yapın! Kaktüs Cafe’de özenle hazırlanmış kahvaltı seçeneklerimizle, taze ve doyurucu bir kahvaltı deneyimi sizi bekliyor. Sevdiklerinizle birlikte, keyifli bir kahvaltının tadını çıkarın."
   };
  
@@ -68,26 +69,32 @@ const services = () => {
       </section>
       <CarouselTextLeft 
         src={carouselTextLeftText.src}
+        src1={carouselTextLeftText.src1}
         text1={carouselTextLeftText.text1}
       />
       <CarouselTextRight 
         src={carouselTextRightText.src}
+        src1={carouselTextRightText.src1}
         text1={carouselTextRightText.text1}
       />
       <CarouselTextLeft 
         src={carouselTextLeftText1.src}
+        src1={carouselTextLeftText1.src1}
         text1={carouselTextLeftText1.text1}
       />
       <CarouselTextRight 
         src={carouselTextRightText1.src}
+        src1={carouselTextRightText1.src1}
         text1={carouselTextRightText1.text1}
       />
       <CarouselTextLeft 
         src={carouselTextLeftText2.src}
+        src1={carouselTextLeftText2.src1}
         text1={carouselTextLeftText2.text1}
       />
       <CarouselTextRight 
         src={carouselTextRightText2.src}
+        src1={carouselTextRightText2.src1}
         text1={carouselTextRightText2.text1}
       />
 
@@ -95,7 +102,8 @@ const services = () => {
 
     
 
-      
+      <FixedContactButtons/>
+
     </div>
   );
 };

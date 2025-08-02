@@ -23,10 +23,11 @@ const HalfHeroSection = () => {
     dotsClass: "slick-dots slick-thumb",
   };
 
-  const videos = ["https://res.cloudinary.com/dpcemurle/video/upload/v1746195081/flrwqufjibyfhx8vy7xq.mp4"];
+  const videos = ["https://kaktus2.b-cdn.net/buyuyen-video.mp4",];
 
   return (
     <>
+    
       <main className="w-full h-[70vh] relative overflow-hidden">
         <Slider {...settings}>
           {videos.map((videoSrc, index) => (
@@ -46,7 +47,7 @@ const HalfHeroSection = () => {
                   transition={{ duration: 0.75, ease: "easeOut" }}
                   className="text-white text-2xl md:text-3xl text-center"
                 >
-                  YEŞİLİN İÇİNDE, TATLARIN EN GÜZELİ: KAKTÜS CAFE GARDEN...
+                  YEŞİLİN İÇİNDE, TATLARIN EN GÜZELİ: KAKTÜS GARDEN CAFE...
                 </motion.h1>
               </div>
             </div>

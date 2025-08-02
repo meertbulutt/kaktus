@@ -2,11 +2,11 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { products } from "../../../../Products/Yemekler/wraplerProducts/index";
+import { products } from "../../../../Products/Yemekler/deniz-urunleriProducts/index";
 import Link from "next/link";
 import { FaArrowLeft } from "react-icons/fa6";
 
-export default function Wrapler() {
+export default function DenizUrunleri() {
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   const handleBackdropClick = (e) => {
@@ -131,4 +131,4 @@ export default function Wrapler() {
       </div>
     </div>
   );
-} 
+}

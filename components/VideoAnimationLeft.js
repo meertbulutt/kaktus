@@ -61,7 +61,7 @@ const VideoAnimationLeft = ({ src, text, text1, text2 }) => {
   <div className="relative w-full aspect-[9/16]">
   <video
         ref={videoRef}
-        src="https://res.cloudinary.com/dpcemurle/video/upload/v1746194895/csgebgtv4bretbsf0vms.mp4" // dış video URL'si buraya
+        src="https://kaktus2.b-cdn.net/giris-kaktus.mp4" // dış video URL'si buraya
         className="w-full h-full"
         autoPlay
         muted

@@ -46,7 +46,7 @@ export const products = [
     name: "Kavurmalı Pide",
     image: "/images/foods/tas-firin-lezzetleri/kavurmali-pide.webp",
     description: "Kaşar, Kavurma, Yeşillik, Domates",
-    price: "₺",
+    price: "500₺",
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ export const products = [
     image: "/images/foods/tas-firin-lezzetleri/ispanakli-pide.webp",
     description:
       "Soğan, Ispanak, Kaşar, Yeşillik, Domates, Yumurta (İsteğe Bağlı)",
-    price: "₺",
+    price: "400₺",
   },
  
   {
